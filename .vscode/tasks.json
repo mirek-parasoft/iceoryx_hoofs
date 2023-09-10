@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+    "options": {
+        "env": {
+             "BUILD_ID": "build_1",
+             "DTP_PROJECT": "ICEORYX"
+        }
+   },
+ 
+	"tasks": [
+        {
+            "label": "Configure",
+            "type": "shell",
+            "command": "cmake -DCPPTEST_COVERAGE=ON -S . -B .build",
+            "group": "build"
+        },
+        {
+            "label": "Build and Run",
+            "type": "shell",
+            "command": "bash -c 'cd .. && cmake --build build && cd build && rm -rf cpptest-coverage/iceoryx_meta/iceoryx_meta.clog && hoofs/test/hoofs_moduletests --gtest_output=xml:gtest_results.xml || true && make cpptestcov-compute cpptestcov-suppress cpptestcov-report'",
+            "group": "build"
+        },
+        {
+            "label": "Generate DTP reports",
+            "type": "shell",
+            "command": "bash -c 'cpptestcov report dtp-details -project ${DTP_PROJECT} -build ${BUILD_ID} .coverage > .coverage/dtp-details.xml && \
+			                     cpptestcov report dtp-summary -project ${DTP_PROJECT} -build ${BUILD_ID} .coverage > .coverage/dtp-summary.xml && \
+								 cpptestcov report dtp-gtest   -project ${DTP_PROJECT} -build ${BUILD_ID} -scm ../build/gtest_results.xml  > .coverage/dtp-gtest.xml'",
+            "group": "build"
+        }
+		{
+            "label": "Publish (DTP)",
+            "type": "shell",
+            "command": "bash -c 'cpptestcov publish  -settings dtp.settings .coverage/dtp-details.xml .coverage/dtp-summary.xml .coverage/dtp-gtest.xml'",
+            "group": "build"
+        }
+
+    ]
+}
+
+cpptestcov publish  -settings dtp.settings .coverage/gtest.xml

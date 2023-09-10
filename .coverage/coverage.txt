@@ -1,0 +1,1356 @@
+
+=== Parasoft C/C++test - Code Coverage Report ===
+
+* LC - Line Coverage
+* DC - Decision (Branch) Coverage
+* SCC - Simple Condition Coverage
+* MCDC - Modified Condition Decision Coverage
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/buffer/include/iox/detail/stack.inl LC=96% 43/45   DC=89% 16/18   SCC=89% 16/18  MCDC=78% 7/9   
+
+  bool iox::stack<T1, unsigned long>::push<T1...>(T1 &&...) LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::stack<T1, unsigned long>::clear() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::stack<T1, unsigned long>::clearFrom(unsigned long) LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::stack<T1, unsigned long>::copy(const iox::stack<T1, unsigned long>&) LC=100% 10/10  DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::stack<T1, unsigned long>::getUnchecked(unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::stack<T1, unsigned long>::getUnchecked(unsigned long) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::stack<T1, unsigned long>::move(iox::stack<T1, unsigned long>&&) LC=100% 11/11  DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::stack<T1, unsigned long>::operator =(const iox::stack<T1, unsigned long>&) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::stack<T1, unsigned long>::operator =(iox::stack<T1, unsigned long>&&) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::stack<T1, unsigned long>::pop() LC=100% 5/5    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::stack<T1, unsigned long>::size() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::stack<T1, unsigned long>::stack(const iox::stack<T1, unsigned long>&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::stack<T1, unsigned long>::stack(iox::stack<T1, unsigned long>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::stack<T1, unsigned long>::~stack() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/container/include/iox/detail/uninitialized_array.inl LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::UninitializedArray<T1, unsigned long, T3>::begin() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::UninitializedArray<T1, unsigned long, T3>::begin() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::UninitializedArray<T1, unsigned long, T3>::end() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::UninitializedArray<T1, unsigned long, T3>::end() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/container/include/iox/detail/vector.inl LC=100% 97/97  DC=95% 40/42   SCC=93% 54/58  MCDC=86% 25/29 
+
+  bool iox::vector<T1, unsigned long>::emplace<T1...>(unsigned long, T1 &&...) LC=100% 11/11  DC=100% 6/6    SCC=100% 10/10 MCDC=100% 5/5  
+  bool iox::vector<T1, unsigned long>::emplace_back<T1...>(T1 &&...) LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  bool iox::vector<T1, unsigned long>::resize<T1...>(unsigned long, const T1 &...) LC=100% 7/7    DC=100% 6/6    SCC=100% 6/6   MCDC=100% 3/3  
+  iox::vector<T1, unsigned long>::at(unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::at(unsigned long) const LC=100% 2/2    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::vector<T1, unsigned long>::at_unchecked(unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::at_unchecked(unsigned long) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::back() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::back() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::begin() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::begin() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::clear() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::clearFrom(unsigned long) LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::vector<T1, unsigned long>::data() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::data() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::empty() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::vector<T1, unsigned long>::end() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::end() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::erase(T1 *) LC=100% 10/10  DC=100% 4/4    SCC=100% 6/6   MCDC=100% 3/3  
+  iox::vector<T1, unsigned long>::front() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::front() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::operator =(const iox::vector<T1, unsigned long>&) LC=100% 11/11  DC=83% 5/6     SCC=83% 5/6    MCDC=67% 2/3   
+  iox::vector<T1, unsigned long>::operator =(iox::vector<T1, unsigned long>&&) LC=100% 12/12  DC=83% 5/6     SCC=83% 5/6    MCDC=67% 2/3   
+  iox::vector<T1, unsigned long>::operator [](unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::operator [](unsigned long) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::pop_back() LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::vector<T1, unsigned long>::push_back(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::push_back(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::size() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::vector(const iox::vector<T1, unsigned long>&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::vector(iox::vector<T1, unsigned long>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::vector<T1, unsigned long>::vector(unsigned long) LC=100% 5/5    DC=100% 4/4    SCC=83% 5/6    MCDC=67% 2/3   
+  iox::vector<T1, unsigned long>::vector(unsigned long, const T1 &) LC=100% 4/4    DC=100% 4/4    SCC=88% 7/8    MCDC=75% 3/4   
+  iox::vector<T1, unsigned long>::~vector() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/functional_interface.inl LC=97% 67/69   DC=90% 18/20   SCC=100% 6/6   MCDC=100% 3/3  
+
+  T1 & iox::internal::AndThenWithValue<T1, T2>::and_then<T1>(const T1 &) & LC=100% 6/6    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  T1 & iox::internal::OrElseWithValue<T1, T2>::or_else<T1>(const T1 &) & LC=100% 6/6    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  T1 && iox::internal::AndThenWithValue<T1, T2>::and_then<T1>(const T1 &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  T1 && iox::internal::OrElseWithValue<T1, T2>::or_else<T1>(const T1 &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  T2 & iox::internal::ExpectWithValue<T1, T2>::expect<T1>(const T1 &) & LC=100% 6/6    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  T2 && iox::internal::ExpectWithValue<T1, T2>::expect<T1>(const T1 &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  T2 iox::internal::ValueOr<T1, T2>::value_or<T1>(T1 &&) && LC=75% 3/4     DC=50% 1/2     SCC=N/A        MCDC=N/A       
+  T2 iox::internal::ValueOr<T1, T2>::value_or<T1>(T1 &&) const & LC=75% 3/4     DC=50% 1/2     SCC=N/A        MCDC=N/A       
+  const T1 & iox::internal::AndThenWithValue<T1, T2>::and_then<T1>(const T1 &) const & LC=100% 6/6    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  const T1 & iox::internal::OrElseWithValue<T1, T2>::or_else<T1>(const T1 &) const & LC=100% 6/6    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  const T1 && iox::internal::AndThenWithValue<T1, T2>::and_then<T1>(const T1 &) const && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  const T1 && iox::internal::OrElseWithValue<T1, T2>::or_else<T1>(const T1 &) const && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  const T2 & iox::internal::ExpectWithValue<T1, T2>::expect<T1>(const T1 &) const & LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  const T2 && iox::internal::ExpectWithValue<T1, T2>::expect<T1>(const T1 &) const && LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::AndThen<T1>::and_then(const iox::function_ref<void ()> &) & LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::internal::AndThen<T1>::and_then(const iox::function_ref<void ()> &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::AndThen<T1>::and_then(const iox::function_ref<void ()> &) const & LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::AndThen<T1>::and_then(const iox::function_ref<void ()> &) const && LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::OrElse<T1>::or_else(const iox::function_ref<void ()> &) & LC=100% 4/4    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::internal::OrElse<T1>::or_else(const iox::function_ref<void ()> &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::OrElse<T1>::or_else(const iox::function_ref<void ()> &) const & LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::OrElse<T1>::or_else(const iox::function_ref<void ()> &) const && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::internal::Expect<T1>::expect<T1>(const T1 &) const LC=100% 5/5    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/newtype.inl LC=100% 21/21  DC=50% 2/4     SCC=50% 2/4    MCDC=0% 0/2    
+
+  iox::NewType<T1, T2, T3>::NewType() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::NewType<T1, T2, T3>::NewType(const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::NewType<T1, T2, T3>::NewType(const iox::NewType<T1, T2, T3>&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::NewType<T1, T2, T3>::NewType(iox::NewType<T1, T2, T3>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::NewType<T1, T2, T3>::NewType(iox::newtype::internal::ProtectedConstructor_t, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::NewType<T1, T2, T3>::operator =(T2 &&) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::NewType<T1, T2, T3>::operator =(const T2 &) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::NewType<T1, T2, T3>::operator =(const iox::NewType<T1, T2, T3>&) LC=100% 4/4    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::NewType<T1, T2, T3>::operator =(iox::NewType<T1, T2, T3>&&) LC=100% 4/4    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::NewType<T1, T2, T3>::operator T2() const LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/newtype/arithmetic.hpp LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::newtype::operator *(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator +(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator -(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator /(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/newtype/comparable.hpp LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::newtype::operator !=(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator ==(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/newtype/decrementable.hpp LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::newtype::operator --(T2 &)  LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator --(T2 &, int) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/newtype/incrementable.hpp LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::newtype::operator ++(T2 &)  LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator ++(T2 &, int) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/newtype/internal.hpp LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  T1::value_type & iox::newtype::internal::newTypeRefAccessor<T1>(T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  T1::value_type iox::newtype::internal::newTypeAccessor<T1>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/newtype/sortable.hpp LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::newtype::operator <(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator <=(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator >(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::newtype::operator >=(const T2 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/polymorphic_handler.inl LC=96% 25/26   DC=100% 4/4    SCC=100% 8/8   MCDC=100% 4/4  
+
+  bool iox::PolymorphicHandler<T1, T2, T3>::set<T1>(iox::StaticLifetimeGuard<T1>) LC=100% 3/3    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::PolymorphicHandler<T1, T2, T3>::PolymorphicHandler() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::PolymorphicHandler<T1, T2, T3>::finalize() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::PolymorphicHandler<T1, T2, T3>::get() LC=100% 5/5    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::PolymorphicHandler<T1, T2, T3>::getCurrentRelaxed() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::PolymorphicHandler<T1, T2, T3>::getCurrentSync() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::PolymorphicHandler<T1, T2, T3>::getDefault() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::PolymorphicHandler<T1, T2, T3>::guard() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::PolymorphicHandler<T1, T2, T3>::reset() LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::PolymorphicHandler<T1, T2, T3>::self() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::PolymorphicHandler<T1, T2, T3>::setHandler(T1 &) LC=100% 7/7    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::detail::DefaultHooks<T1>::onSetAfterFinalize(T1 &, T1 &) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/include/iox/detail/static_lifetime_guard.inl LC=100% 22/22  DC=90% 9/10    SCC=90% 9/10   MCDC=80% 4/5   
+
+  T1 & iox::StaticLifetimeGuard<T1>::instance<T1...>(T1 &&...) LC=100% 9/9    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::StaticLifetimeGuard<T1>::StaticLifetimeGuard() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::StaticLifetimeGuard<T1>::StaticLifetimeGuard(const iox::StaticLifetimeGuard<T1>&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::StaticLifetimeGuard<T1>::StaticLifetimeGuard(iox::StaticLifetimeGuard<T1>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::StaticLifetimeGuard<T1>::count() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::StaticLifetimeGuard<T1>::destroy() LC=100% 6/6    DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::StaticLifetimeGuard<T1>::setCount(unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::StaticLifetimeGuard<T1>::~StaticLifetimeGuard() LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/design/source/functional_interface.cpp LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+
+  iox::internal::print_expect_message(const char *) LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/filesystem/include/iox/detail/filesystem.inl LC=100% 72/72  DC=100% 30/30  SCC=100% 24/24 MCDC=100% 12/12 
+
+  bool iox::doesEndWithPathSeparator<unsigned long>(const iox::string<unsigned long> &) LC=100% 7/7    DC=100% 6/6    SCC=100% 4/4   MCDC=100% 2/2  
+  bool iox::isValidFileName<unsigned long>(const iox::string<unsigned long> &) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  bool iox::isValidPathEntry<unsigned long>(const iox::string<unsigned long> &, iox::RelativePathComponents) LC=100% 16/16  DC=100% 8/8    SCC=100% 8/8   MCDC=100% 4/4  
+  bool iox::isValidPathToDirectory<(unsigned long)1023>(const iox::string<T1> &)::[lambda(const T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToDirectory<(unsigned long)107>(const iox::string<T1> &)::[lambda(const T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToDirectory<(unsigned long)128>(const iox::string<T1> &)::[lambda(const T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToDirectory<(unsigned long)767>(const iox::string<T1> &)::[lambda(const T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToDirectory<unsigned long>(const iox::string<unsigned long> &) LC=100% 19/19  DC=100% 10/10  SCC=100% 4/4   MCDC=100% 2/2  
+  bool iox::isValidPathToFile<(unsigned long)1023>(const iox::string<T1> &)::[lambda(const T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToFile<(unsigned long)1023>(const iox::string<T1> &)::[lambda(const T1 &) (instance 2)] LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToFile<(unsigned long)107>(const iox::string<T1> &)::[lambda(const T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToFile<(unsigned long)107>(const iox::string<T1> &)::[lambda(const T1 &) (instance 2)] LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToFile<(unsigned long)128>(const iox::string<T1> &)::[lambda(const T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToFile<(unsigned long)128>(const iox::string<T1> &)::[lambda(const T1 &) (instance 2)] LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::isValidPathToFile<unsigned long>(const iox::string<unsigned long> &) LC=100% 11/11  DC=100% 4/4    SCC=100% 6/6   MCDC=100% 3/3  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/filesystem/source/filesystem.cpp LC=96% 55/57   DC=100% 32/32  SCC=100% 32/32 MCDC=100% 16/16 
+
+  iox::operator <<(iox::log::LogStream &, iox::access_rights) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::operator <<(std::ostream&, iox::access_rights) LC=0% 0/2      DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::finishEntry<T1>(T1 &, bool, bool) LC=100% 5/5    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  void iox::outputToStream<T1>(T1 &, const char *, bool &) LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  void iox::printAccessControl<T1>(T1 &, iox::access_rights) LC=100% 7/7    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  void iox::printGroupPermissions<T1>(T1 &, iox::access_rights) LC=100% 9/9    DC=100% 6/6    SCC=100% 6/6   MCDC=100% 3/3  
+  void iox::printOtherPermissions<T1>(T1 &, iox::access_rights) LC=100% 9/9    DC=100% 6/6    SCC=100% 6/6   MCDC=100% 3/3  
+  void iox::printOwnerPermissions<T1>(T1 &, iox::access_rights) LC=100% 9/9    DC=100% 6/6    SCC=100% 6/6   MCDC=100% 3/3  
+  void iox::printSpecialBits<T1>(T1 &, iox::access_rights) LC=100% 10/10  DC=100% 6/6    SCC=100% 6/6   MCDC=100% 3/3  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/functional/include/iox/detail/function_ref.inl LC=100% 17/17  DC=50% 1/2     SCC=67% 4/6    MCDC=33% 1/3   
+
+  iox::function_ref<T1 (T2...)>::function_ref(T1 (&)(T2...)) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::function_ref<T1 (T2...)>::function_ref(T1 (&)(T2...))::[lambda(void *, T2...) (instance 1)] LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::function_ref<T1 (T2...)>::function_ref(iox::function_ref<T1 (T2...)>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::function_ref<T1 (T2...)>::function_ref<T1, T2>(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::function_ref<T1 (T2...)>::function_ref<T1, T2>(T1 &&)::[lambda(void *, T2...) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::function_ref<T1 (T2...)>::operator ()(T2...) const LC=100% 2/2    DC=N/A         SCC=75% 3/4    MCDC=50% 1/2   
+  iox::function_ref<T1 (T2...)>::operator =(iox::function_ref<T1 (T2...)>&&) & LC=100% 6/6    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::function_ref<T1 (T2...)>::swap(iox::function_ref<T1 (T2...)>&) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/functional/include/iox/detail/storable_function.inl LC=100% 70/70  DC=67% 8/12    SCC=64% 9/14   MCDC=29% 2/7   
+
+  T2 iox::storable_function<unsigned long, T2 (T3...)>::invoke<T1>(void *, T3 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<T1, T2 (T3...)>::storable_function<T1, T2>(T1 &, T2 (T1::*)(T3...))::[lambda(T3...) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<T1, T2 (T3...)>::storable_function<T1, T2>(const T1 &, T2 (T1::*)(T3...) const)::[lambda(T3...) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::copyFreeFunction(const iox::storable_function<unsigned long, T2 (T3...)>&, iox::storable_function<unsigned long, T2 (T3...)>&) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::invokeFreeFunction(void *, T3 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::moveFreeFunction(iox::storable_function<unsigned long, T2 (T3...)>&, iox::storable_function<unsigned long, T2 (T3...)>&) LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::operations::copy(const iox::storable_function<unsigned long, T2 (T3...)>&, iox::storable_function<unsigned long, T2 (T3...)>&) const LC=100% 2/2    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::storable_function<unsigned long, T2 (T3...)>::operations::destroy(iox::storable_function<unsigned long, T2 (T3...)>&) const LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::storable_function<unsigned long, T2 (T3...)>::operations::move(iox::storable_function<unsigned long, T2 (T3...)>&, iox::storable_function<unsigned long, T2 (T3...)>&) const LC=100% 2/2    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::storable_function<unsigned long, T2 (T3...)>::operator ()(T3...) const LC=100% 2/2    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::storable_function<unsigned long, T2 (T3...)>::operator =(const iox::storable_function<unsigned long, T2 (T3...)>&) LC=100% 6/6    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::storable_function<unsigned long, T2 (T3...)>::operator =(iox::storable_function<unsigned long, T2 (T3...)>&&) LC=100% 6/6    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::storable_function<unsigned long, T2 (T3...)>::storable_function(T2 (*)(T3...)) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::storable_function(const iox::storable_function<unsigned long, T2 (T3...)>&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::storable_function(iox::storable_function<unsigned long, T2 (T3...)>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::storable_function<T1, T2>(T1 &, T2 (T1::*)(T3...)) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::storable_function<T1, T2>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::storable_function<T1, T2>(const T1 &, T2 (T1::*)(T3...) const) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::swap(iox::storable_function<unsigned long, T2 (T3...)>&) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::storable_function<unsigned long, T2 (T3...)>::~storable_function() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::storable_function<unsigned long, T2 (T3...)>::copy<T1>(const iox::storable_function<unsigned long, T2 (T3...)>&, iox::storable_function<unsigned long, T2 (T3...)>&) LC=100% 5/5    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::storable_function<unsigned long, T2 (T3...)>::destroy<T1>(iox::storable_function<unsigned long, T2 (T3...)>&) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  void iox::storable_function<unsigned long, T2 (T3...)>::move<T1>(iox::storable_function<unsigned long, T2 (T3...)>&, iox::storable_function<unsigned long, T2 (T3...)>&) LC=100% 8/8    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::storable_function<unsigned long, T2 (T3...)>::storeFunctor<T1, T2>(const T1 &) LC=100% 7/7    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::swap<unsigned long, T2>(iox::storable_function<unsigned long, T2> &, iox::storable_function<unsigned long, T2> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/error_reporting/custom/default/error_reporting.inl LC=98% 40/41   DC=N/A         SCC=50% 8/16   MCDC=0% 0/8    
+
+  iox::er::panic()                 LC=67% 2/3     DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::panic(const iox::er::SourceLocation &) LC=100% 2/2    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::er::panic<T1>(const iox::er::SourceLocation &, T1 &&) LC=100% 2/2    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::er::report<T1, T2>(const iox::er::SourceLocation &, T1, const T2 &) LC=100% 7/7    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::er::report<T1, T2>(const iox::er::SourceLocation &, iox::er::AssumptionViolationKind, const T1 &, T2 &&) LC=100% 5/5    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::er::report<T1, T2>(const iox::er::SourceLocation &, iox::er::PreconditionViolationKind, const T1 &, T2 &&) LC=100% 5/5    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::er::report<T1>(const iox::er::SourceLocation &, iox::er::AssumptionViolationKind, const T1 &) LC=100% 5/5    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::er::report<T1>(const iox::er::SourceLocation &, iox::er::FatalKind, const T1 &) LC=100% 7/7    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::er::report<T1>(const iox::er::SourceLocation &, iox::er::PreconditionViolationKind, const T1 &) LC=100% 5/5    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/error_reporting/error_forwarding.hpp LC=80% 12/15   DC=N/A         SCC=N/A        MCDC=N/A       
+
+  void iox::er::forwardFatalError<T1, T2, T3>(T1 &&, T2 &&, const iox::er::SourceLocation &, T3 &&) LC=80% 4/5     DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::er::forwardFatalError<T1, T2>(T1 &&, T2 &&, const iox::er::SourceLocation &) LC=80% 4/5     DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::er::forwardNonFatalError<T1, T2>(T1 &&, T2 &&, const iox::er::SourceLocation &) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::er::forwardPanic<T1>(const iox::er::SourceLocation &, T1 &&) LC=50% 1/2     DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/error_reporting/errors.hpp LC=100% 14/14  DC=N/A         SCC=100% 6/6   MCDC=100% 3/3  
+
+  auto iox::er::toError<T1>(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  const char * iox::er::toErrorName<T1>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  const char * iox::er::toModuleName<T1>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::ErrorCode iox::er::toCode<T1>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::ErrorCode iox::er::toCode<iox::er::ErrorCode>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::ModuleId iox::er::toModule<T1>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::Violation::Violation(iox::er::ErrorCode) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::Violation::Violation(iox::er::ErrorCode, iox::er::ModuleId) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::Violation::code() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::Violation::createAssumptionViolation() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::Violation::createPreconditionViolation() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::Violation::module() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::Violation::operator !=(const iox::er::Violation&) const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::er::Violation::operator ==(const iox::er::Violation&) const LC=100% 1/1    DC=N/A         SCC=100% 4/4   MCDC=100% 2/2  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/error_reporting/source_location.hpp LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::er::SourceLocation::SourceLocation(const char *, int, const char *) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/error_reporting/types.hpp LC=100% 4/4    DC=N/A         SCC=100% 8/8   MCDC=100% 4/4  
+
+  iox::er::ErrorCode::operator !=(const iox::er::ErrorCode&) const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::er::ErrorCode::operator ==(const iox::er::ErrorCode&) const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::er::ModuleId::operator !=(const iox::er::ModuleId&) const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::er::ModuleId::operator ==(const iox::er::ModuleId&) const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/fifo.inl LC=100% 15/15  DC=100% 4/4    SCC=100% 10/10 MCDC=100% 5/5  
+
+  iox::concurrent::FiFo<T1, unsigned long>::empty() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::FiFo<T1, unsigned long>::is_full() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::FiFo<T1, unsigned long>::pop() LC=100% 7/7    DC=100% 2/2    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::concurrent::FiFo<T1, unsigned long>::push(const T1 &) LC=100% 6/6    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/lockfree_queue/cyclic_index.inl LC=100% 19/19  DC=100% 6/6    SCC=100% 6/6   MCDC=100% 3/3  
+
+  iox::concurrent::CyclicIndex<unsigned long, T2>::CyclicIndex(T2) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::CyclicIndex<unsigned long, T2>::CyclicIndex(T2, T2) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::CyclicIndex<unsigned long, T2>::getCycle() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::CyclicIndex<unsigned long, T2>::getIndex() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::CyclicIndex<unsigned long, T2>::getValue() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::CyclicIndex<unsigned long, T2>::isOneCycleBehind(const iox::concurrent::CyclicIndex<unsigned long, T2>&) const LC=100% 5/5    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::CyclicIndex<unsigned long, T2>::next() const LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::CyclicIndex<unsigned long, T2>::operator +(T2) const LC=100% 5/5    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::CyclicIndex<unsigned long, T2>::operator -(const iox::concurrent::CyclicIndex<unsigned long, T2>&) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/lockfree_queue/index_queue.inl LC=90% 70/78   DC=69% 25/36   SCC=85% 17/20  MCDC=70% 7/10  
+
+  iox::concurrent::IndexQueue<unsigned long, T2>::IndexQueue(iox::concurrent::IndexQueue<unsigned long, T2>::ConstructEmpty_t) LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::IndexQueue<unsigned long, T2>::IndexQueue(iox::concurrent::IndexQueue<unsigned long, T2>::ConstructFull_t) LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::IndexQueue<unsigned long, T2>::empty() const LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::IndexQueue<unsigned long, T2>::loadvalueAt(const iox::concurrent::CyclicIndex<unsigned long, unsigned long> &, std::memory_order) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::IndexQueue<unsigned long, T2>::pop() LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::IndexQueue<unsigned long, T2>::pop(T2 &) LC=93% 14/15   DC=67% 4/6     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::concurrent::IndexQueue<unsigned long, T2>::popIfFull() LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::IndexQueue<unsigned long, T2>::popIfFull(T2 &) LC=100% 11/11  DC=75% 3/4     SCC=N/A        MCDC=N/A       
+  iox::concurrent::IndexQueue<unsigned long, T2>::popIfSizeIsAtLeast(unsigned long) LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::IndexQueue<unsigned long, T2>::popIfSizeIsAtLeast(unsigned long, T2 &) LC=93% 14/15   DC=75% 6/8     SCC=100% 4/4   MCDC=100% 2/2  
+  iox::concurrent::IndexQueue<unsigned long, T2>::push(T2) LC=65% 11/17   DC=25% 2/8     SCC=50% 2/4    MCDC=0% 0/2    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/lockfree_queue/lockfree_queue.inl LC=100% 40/40  DC=90% 9/10    SCC=50% 1/2    MCDC=0% 0/1    
+
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::LockFreeQueue() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::empty() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::pop() LC=100% 6/6    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::push(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::push(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::readBufferAt(const unsigned long &) LC=100% 5/5    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::size() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::tryPush(T1 &&) LC=100% 6/6    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::concurrent::LockFreeQueue<T1, unsigned long>::tryPush(const T1 &) LC=100% 6/6    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::optional<T1> iox::concurrent::LockFreeQueue<T1, unsigned long>::pushImpl<T1>(T1 &&) LC=100% 9/9    DC=75% 3/4     SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::concurrent::LockFreeQueue<T1, unsigned long>::writeBufferAt<T1>(const unsigned long &, T1 &&) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/lockfree_queue/resizeable_lockfree_queue.inl LC=95% 57/60   DC=87% 26/30   SCC=88% 21/24  MCDC=75% 9/12  
+
+  bool iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::setCapacity<T1, T2>(unsigned long, T1 &&) LC=93% 13/14   DC=88% 7/8     SCC=88% 7/8    MCDC=75% 3/4   
+  iox::concurrent::ResizeableLockFreeQueue<T1, T2>::setCapacity(unsigned long)::[lambda(const T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::ResizeableLockFreeQueue(unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::capacity() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::increaseCapacity(unsigned long) LC=89% 8/9     DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::push(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::push(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::setCapacity(unsigned long) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::tryGetUsedIndex(unsigned long &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1> iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::pushImpl<T1>(T1 &&) LC=100% 9/9    DC=75% 3/4     SCC=50% 1/2    MCDC=0% 0/1    
+  unsigned long iox::concurrent::ResizeableLockFreeQueue<T1, unsigned long>::decreaseCapacity<T1>(unsigned long, T1 &&) LC=95% 19/20   DC=93% 13/14   SCC=100% 10/10 MCDC=100% 5/5  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/periodic_task.inl LC=100% 17/17  DC=100% 4/4    SCC=80% 8/10   MCDC=60% 3/5   
+
+  iox::concurrent::PeriodicTask<T1>::PeriodicTask<T1...>(iox::concurrent::PeriodicTaskAutoStart_t, iox::units::Duration, const iox::string<(unsigned long)15> &, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::PeriodicTask<T1>::PeriodicTask<T1...>(iox::concurrent::PeriodicTaskManualStart_t, const iox::string<(unsigned long)15> &, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::PeriodicTask<T1>::isActive() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::concurrent::PeriodicTask<T1>::run() LC=100% 6/6    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::concurrent::PeriodicTask<T1>::start(iox::units::Duration) LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::PeriodicTask<T1>::stop() LC=100% 3/3    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::concurrent::PeriodicTask<T1>::~PeriodicTask() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/smart_lock.inl LC=100% 5/5    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::concurrent::smart_lock<T1, T2>::Proxy::Proxy(T1 &, T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::smart_lock<T1, T2>::Proxy::operator ->() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::smart_lock<T1, T2>::Proxy::~Proxy() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::smart_lock<T1, T2>::getScopeGuard() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::smart_lock<T1, T2>::operator ->() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/sofi.inl LC=98% 49/50   DC=75% 12/16   SCC=77% 23/30  MCDC=53% 8/15  
+
+  bool iox::concurrent::SoFi<T1, unsigned long>::popIf<T1>(T1 &, const T1 &) LC=100% 14/14  DC=83% 5/6     SCC=80% 8/10   MCDC=60% 3/5   
+  iox::concurrent::SoFi<T1, T2>::pop(T1 &)::[lambda(T1) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::SoFi<T1, unsigned long>::capacity() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::SoFi<T1, unsigned long>::empty() const LC=100% 7/7    DC=50% 1/2     SCC=83% 5/6    MCDC=67% 2/3   
+  iox::concurrent::SoFi<T1, unsigned long>::pop(T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::concurrent::SoFi<T1, unsigned long>::push(const T1 &, T1 &) LC=92% 12/13   DC=75% 3/4     SCC=67% 4/6    MCDC=33% 1/3   
+  iox::concurrent::SoFi<T1, unsigned long>::setCapacity(unsigned long) LC=100% 7/7    DC=100% 2/2    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::concurrent::SoFi<T1, unsigned long>::size() const LC=100% 6/6    DC=50% 1/2     SCC=50% 2/4    MCDC=0% 0/2    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/cxx/list.inl LC=98% 175/178 DC=85% 46/54   SCC=88% 60/68  MCDC=76% 26/34 
+
+  T1 & iox::cxx::list<T1, unsigned long>::emplace_back<T1...>(T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  T1 & iox::cxx::list<T1, unsigned long>::emplace_front<T1...>(T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::operator !=<bool>(const iox::cxx::list<T1, unsigned long>::IteratorBase<bool> &) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::operator ==<bool>(const iox::cxx::list<T1, unsigned long>::IteratorBase<bool> &) const LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  decltype(T2) iox::cxx::list<T1, unsigned long>::remove_if<T1>(T1) LC=100% 8/8    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::cxx::list<T1, T2>::remove(const T1 &)::[lambda(T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)0> iox::cxx::list<T1, unsigned long>::emplace<T1...>(iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1>, T1 &&...) LC=93% 13/14   DC=75% 3/4     SCC=67% 4/6    MCDC=33% 1/3   
+  iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::IteratorBase(const iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)0> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::IteratorBase(std::conditional<bool, const iox::cxx::list<T1, unsigned long>*, iox::cxx::list<T1, unsigned long>*>::type, decltype(T2)) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::operator *() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::operator ++() LC=100% 4/4    DC=75% 3/4     SCC=100% 2/2   MCDC=100% 1/1  
+  iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::operator --() LC=100% 4/4    DC=75% 3/4     SCC=100% 2/2   MCDC=100% 1/1  
+  iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::operator ->() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::IteratorBase<bool>::operator =(const iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)0> &) LC=100% 4/4    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::cxx::list<T1, unsigned long>::back() LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::back() const LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::begin() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::capacity() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::cbegin() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::cend() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::clear() LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::cxx::list<T1, unsigned long>::empty() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::cxx::list<T1, unsigned long>::end() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::erase(iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1>) LC=93% 14/15   DC=75% 3/4     SCC=67% 4/6    MCDC=33% 1/3   
+  iox::cxx::list<T1, unsigned long>::front() LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::front() const LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::full() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::cxx::list<T1, unsigned long>::getDataPtrFromIdx(decltype(T2)) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::getDataPtrFromIdx(decltype(T2)) const LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::getNextIdx(const iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::getNextIdx(decltype(T2)) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::getNextIdx(decltype(T2)) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::getPrevIdx(const iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::getPrevIdx(const iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1> &) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::getPrevIdx(decltype(T2)) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::getPrevIdx(decltype(T2)) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::init() LC=100% 11/11  DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::insert(iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1>, T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::insert(iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1>, const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::isInvalidIterOrDifferentLists(const iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1> &) const LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::isInvalidIterator(const iox::cxx::list<T1, unsigned long>::IteratorBase<(bool)1> &) const LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::isValidElementIdx(decltype(T2)) const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::cxx::list<T1, unsigned long>::list() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::list(const iox::cxx::list<T1, unsigned long>&) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::list(iox::cxx::list<T1, unsigned long>&&) LC=100% 5/5    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::max_size() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::operator =(const iox::cxx::list<T1, unsigned long>&) LC=100% 16/16  DC=88% 7/8     SCC=88% 7/8    MCDC=75% 3/4   
+  iox::cxx::list<T1, unsigned long>::operator =(iox::cxx::list<T1, unsigned long>&&) LC=100% 17/17  DC=88% 7/8     SCC=88% 7/8    MCDC=75% 3/4   
+  iox::cxx::list<T1, unsigned long>::pop_back() LC=100% 3/3    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::cxx::list<T1, unsigned long>::pop_front() LC=100% 3/3    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::cxx::list<T1, unsigned long>::push_back(T1 &&) LC=100% 4/4    DC=100% 2/2    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::cxx::list<T1, unsigned long>::push_back(const T1 &) LC=100% 4/4    DC=100% 2/2    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::cxx::list<T1, unsigned long>::push_front(T1 &&) LC=100% 4/4    DC=100% 2/2    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::cxx::list<T1, unsigned long>::push_front(const T1 &) LC=100% 4/4    DC=100% 2/2    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::cxx::list<T1, unsigned long>::remove(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::setNextIdx(decltype(T2), decltype(T2)) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::setPrevIdx(decltype(T2), decltype(T2)) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::size() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::list<T1, unsigned long>::~list() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/cxx/variant_queue.inl LC=90% 28/31   DC=78% 14/18   SCC=N/A        MCDC=N/A       
+
+  iox::cxx::VariantQueue<T1, unsigned long>::VariantQueue(iox::cxx::VariantQueueTypes) LC=100% 8/8    DC=80% 4/5     SCC=N/A        MCDC=N/A       
+  iox::cxx::VariantQueue<T1, unsigned long>::empty() const LC=80% 4/5     DC=75% 3/4     SCC=N/A        MCDC=N/A       
+  iox::cxx::VariantQueue<T1, unsigned long>::getUnderlyingFiFo() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::cxx::VariantQueue<T1, unsigned long>::pop() LC=86% 6/7     DC=75% 3/4     SCC=N/A        MCDC=N/A       
+  iox::cxx::VariantQueue<T1, unsigned long>::push(const T1 &) LC=90% 9/10    DC=80% 4/5     SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/error_handling/error_handler.inl LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  auto iox::errorToStringIndex<T1>(T1) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::errorHandler<T1>(T1, iox::ErrorLevel) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/posix_wrapper/mutex.hpp LC=0% 0/10     DC=N/A         SCC=0% 0/4     MCDC=0% 0/2    
+
+  iox::posix::MutexBuilder::isInterProcessCapable(bool &&) && LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::MutexBuilder::isInterProcessCapable(const bool &) && LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::MutexBuilder::mutexType(const iox::posix::MutexType &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MutexBuilder::mutexType(iox::posix::MutexType &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MutexBuilder::priorityCeiling(const iox::optional<int> &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MutexBuilder::priorityCeiling(iox::optional<int> &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MutexBuilder::priorityInheritance(const iox::posix::MutexPriorityInheritance &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MutexBuilder::priorityInheritance(iox::posix::MutexPriorityInheritance &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MutexBuilder::threadTerminationBehavior(const iox::posix::MutexThreadTerminationBehavior &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MutexBuilder::threadTerminationBehavior(iox::posix::MutexThreadTerminationBehavior &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/posix_wrapper/posix_call.inl LC=97% 34/35   DC=100% 12/12  SCC=88% 7/8    MCDC=75% 3/4   
+
+  iox::posix::PosixCallBuilder<T1, T2...> iox::posix::internal::createPosixCallBuilder<T1, T2...>(T1 (*)(T2...), const char *, const char *, int, const char *) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallBuilder<T1, T2...>::PosixCallBuilder(T1 (*)(T2...), const char *, const char *, int, const char *) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallBuilder<T1, T2...>::operator ()(T2...) && LC=100% 7/7    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::posix::PosixCallEvaluator<T1> iox::posix::PosixCallEvaluator<T1>::ignoreErrnos<T1...>(T1...) const && LC=100% 3/3    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallEvaluator<T1> iox::posix::PosixCallEvaluator<T1>::suppressErrorMessagesForErrnos<T1...>(T1...) const && LC=100% 3/3    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallEvaluator<T1> iox::posix::PosixCallVerificator<T1>::failureReturnValue<T1...>(T1...) && LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallEvaluator<T1> iox::posix::PosixCallVerificator<T1>::successReturnValue<T1...>(T1...) && LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallEvaluator<T1>::PosixCallEvaluator(iox::posix::internal::PosixCallDetails<T1> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallEvaluator<T1>::evaluate() const && LC=100% 5/5    DC=100% 4/4    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::PosixCallResult<T1>::getHumanReadableErrnum() const LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallVerificator<T1>::PosixCallVerificator(iox::posix::internal::PosixCallDetails<T1> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixCallVerificator<T1>::returnValueMatchesErrno() && LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::internal::PosixCallDetails<T1>::PosixCallDetails(const char *, const char *, int, const char *) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::internal::errorLiteralToString(const char *, char *) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::internal::errorLiteralToString(int, char *) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object.hpp LC=50% 6/12    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::posix::SharedMemoryObjectBuilder::accessMode(const iox::posix::AccessMode &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::accessMode(iox::posix::AccessMode &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::baseAddressHint(const iox::optional<const void *> &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::baseAddressHint(iox::optional<const void *> &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::memorySizeInBytes(const unsigned long &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::memorySizeInBytes(unsigned long &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::name(const iox::string<(unsigned long)4096> &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::name(iox::string<(unsigned long)4096> &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::openMode(const iox::posix::OpenMode &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::openMode(iox::posix::OpenMode &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::permissions(const iox::access_rights &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObjectBuilder::permissions(iox::access_rights &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object/memory_map.hpp LC=50% 6/12    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::posix::MemoryMapBuilder::accessMode(const iox::posix::AccessMode &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::accessMode(iox::posix::AccessMode &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::baseAddressHint(const void *&&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::baseAddressHint(const void *const &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::fileDescriptor(const int &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::fileDescriptor(int &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::flags(const iox::posix::MemoryMapFlags &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::flags(iox::posix::MemoryMapFlags &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::length(const unsigned long &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::length(unsigned long &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::offset(const long &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMapBuilder::offset(long &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object/shared_memory.hpp LC=90% 9/10    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::posix::SharedMemoryBuilder::accessMode(const iox::posix::AccessMode &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::accessMode(iox::posix::AccessMode &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::filePermissions(const iox::access_rights &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::filePermissions(iox::access_rights &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::name(const iox::string<(unsigned long)4096> &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::name(iox::string<(unsigned long)4096> &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::openMode(const iox::posix::OpenMode &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::openMode(iox::posix::OpenMode &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::size(const unsigned long &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::size(unsigned long &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/internal/posix_wrapper/unix_domain_socket.hpp LC=75% 3/4     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+
+  iox::expected<iox::posix::UnixDomainSocket, iox::posix::IpcChannelError> iox::posix::UnixDomainSocket::create<T1...>(T1 &&...) LC=75% 3/4     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/posix_wrapper/file_lock.hpp LC=67% 4/6     DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::posix::FileLockBuilder::name(const iox::string<(unsigned long)249> &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::FileLockBuilder::name(iox::string<(unsigned long)249> &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::FileLockBuilder::path(const iox::string<(unsigned long)767> &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::FileLockBuilder::path(iox::string<(unsigned long)767> &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::FileLockBuilder::permission(const iox::access_rights &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::FileLockBuilder::permission(iox::access_rights &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/posix_wrapper/named_semaphore.hpp LC=75% 6/8     DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::posix::NamedSemaphoreBuilder::initialValue(const unsigned int &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphoreBuilder::initialValue(unsigned int &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphoreBuilder::name(const iox::string<(unsigned long)250> &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphoreBuilder::name(iox::string<(unsigned long)250> &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphoreBuilder::openMode(const iox::posix::OpenMode &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphoreBuilder::openMode(iox::posix::OpenMode &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphoreBuilder::permissions(const iox::access_rights &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphoreBuilder::permissions(iox::access_rights &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/posix_wrapper/thread.hpp LC=50% 1/2     DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::posix::ThreadBuilder::name(const iox::string<(unsigned long)15> &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::ThreadBuilder::name(iox::string<(unsigned long)15> &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/include/iceoryx_hoofs/posix_wrapper/unnamed_semaphore.hpp LC=75% 3/4     DC=N/A         SCC=25% 1/4    MCDC=0% 0/2    
+
+  iox::posix::UnnamedSemaphoreBuilder::initialValue(const unsigned int &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnnamedSemaphoreBuilder::initialValue(unsigned int &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnnamedSemaphoreBuilder::isInterProcessCapable(bool &&) && LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::UnnamedSemaphoreBuilder::isInterProcessCapable(const bool &) && LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/memory/include/iox/detail/pointer_repository.inl LC=96% 25/26   DC=89% 16/18   SCC=88% 14/16  MCDC=75% 6/8   
+
+  iox::PointerRepository<T1, T2, unsigned long>::PointerRepository() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::PointerRepository<T1, T2, unsigned long>::addPointerIfIdIsFree(T1, T2, unsigned long) LC=100% 7/7    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::PointerRepository<T1, T2, unsigned long>::getBasePtr(T1) const LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::PointerRepository<T1, T2, unsigned long>::registerPtrWithId(T1, T2, unsigned long) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::PointerRepository<T1, T2, unsigned long>::searchId(T2) const LC=100% 4/4    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::PointerRepository<T1, T2, unsigned long>::unregisterAll() LC=100% 3/3    DC=100% 2/2    SCC=N/A        MCDC=N/A       
+  iox::PointerRepository<T1, T2, unsigned long>::unregisterPtr(T1) LC=80% 4/5     DC=50% 2/4     SCC=50% 2/4    MCDC=0% 0/2    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/memory/include/iox/detail/relative_pointer.inl LC=95% 35/37   DC=100% 6/6    SCC=90% 9/10   MCDC=80% 4/5   
+
+  bool iox::operator !=<T1>(iox::RelativePointer<T1>, std::nullptr_t) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::RelativePointer(T1 *) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::RelativePointer(T1 *)::[lambda() (instance 1)] LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::RelativePointer(T1 *, iox::segment_id_t) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::RelativePointer(iox::RelativePointer<T1>&&) LC=0% 0/2      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::RelativePointer(unsigned long, iox::segment_id_t) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::computeOffset(T1 *) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::computeRawPtr() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::get() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::getBasePtr() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::getBasePtr(iox::segment_id_t) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::getId() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::getOffset() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::getOffset(iox::segment_id_t, T1 *) LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::RelativePointer<T1>::getPtr(iox::segment_id_t, unsigned long) LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::RelativePointer<T1>::operator =(T1 *) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::operator bool() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::registerPtrWithId(iox::segment_id_t, T1 *, unsigned long) LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::RelativePointer<T1>::searchId(T1 *) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::RelativePointer<T1>::unregisterAll() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointer<T1>::unregisterPtr(iox::segment_id_t) LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::getRepository()             LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<(!std::is_void<T1>::value), const T1 &>::type iox::RelativePointer<T1>::operator *<T1>() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/memory/include/iox/detail/scope_guard.inl LC=100% 11/11  DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+
+  iox::ScopeGuardWithVariableCapacity<unsigned long>::ScopeGuardWithVariableCapacity(const iox::function_ref<void ()> &, const iox::storable_function<unsigned long, void ()> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::ScopeGuardWithVariableCapacity<unsigned long>::ScopeGuardWithVariableCapacity(const iox::storable_function<unsigned long, void ()> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::ScopeGuardWithVariableCapacity<unsigned long>::ScopeGuardWithVariableCapacity(iox::ScopeGuardWithVariableCapacity<unsigned long>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::ScopeGuardWithVariableCapacity<unsigned long>::destroy() LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::ScopeGuardWithVariableCapacity<unsigned long>::operator =(iox::ScopeGuardWithVariableCapacity<unsigned long>&&) LC=100% 5/5    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::ScopeGuardWithVariableCapacity<unsigned long>::~ScopeGuardWithVariableCapacity() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/memory/include/iox/detail/unique_ptr.inl LC=100% 24/24  DC=75% 3/4     SCC=63% 5/8    MCDC=25% 1/4   
+
+  bool iox::operator !=<T1, T2>(const iox::unique_ptr<T1> &, const iox::unique_ptr<T2> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::operator ==<T1, T2>(const iox::unique_ptr<T1> &, const iox::unique_ptr<T2> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::unique_ptr<T1>::destroy()   LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::unique_ptr<T1>::get()       LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::unique_ptr<T1>::get() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::unique_ptr<T1>::operator ->() LC=100% 2/2    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::unique_ptr<T1>::operator ->() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::unique_ptr<T1>::operator =(iox::unique_ptr<T1>&&) LC=100% 6/6    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::unique_ptr<T1>::release(iox::unique_ptr<T1>&&) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::unique_ptr<T1>::swap(iox::unique_ptr<T1>&) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::unique_ptr<T1>::unique_ptr(T1 *, const iox::storable_function<(unsigned long)128, void (iox::add_const_conditionally<T1 *const , T1>::type)> &) LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::unique_ptr<T1>::unique_ptr(iox::unique_ptr<T1>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::unique_ptr<T1>::~unique_ptr() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/memory/include/iox/memory.hpp LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  T1 iox::align<T1>(T1, T1)        LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/memory/source/bump_allocator.cpp LC=100% 16/16  DC=100% 4/4    SCC=75% 6/8    MCDC=50% 2/4   
+
+  iox::BumpAllocator::BumpAllocator(void *, unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::BumpAllocator::allocate(unsigned long, unsigned long) LC=100% 14/14  DC=100% 4/4    SCC=75% 6/8    MCDC=50% 2/4   
+  iox::BumpAllocator::deallocate() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/memory/source/memory.cpp LC=0% 0/9      DC=0% 0/4      SCC=0% 0/4     MCDC=0% 0/2    
+
+  iox::alignedAlloc(unsigned long, unsigned long) LC=0% 0/7      DC=0% 0/2      SCC=0% 0/2     MCDC=0% 0/1    
+  iox::alignedFree(void *)         LC=0% 0/2      DC=0% 0/2      SCC=0% 0/2     MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/memory/source/relative_pointer_data.cpp LC=100% 4/4    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+
+  iox::RelativePointerData::id() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointerData::isLogicalNullptr() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::RelativePointerData::offset() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::RelativePointerData::reset() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/design/include/iox/detail/file_management_interface.inl LC=81% 21/26   DC=50% 5/10    SCC=50% 5/10   MCDC=0% 0/5    
+
+  iox::FileManagementInterface<T1>::get_ownership() const LC=80% 4/5     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::FileManagementInterface<T1>::get_permissions() const LC=83% 5/6     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::FileManagementInterface<T1>::get_size() const LC=80% 4/5     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::FileManagementInterface<T1>::set_ownership(iox::Ownership) LC=80% 4/5     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::FileManagementInterface<T1>::set_permissions(iox::access_rights) LC=80% 4/5     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/design/source/file_management_interface.cpp LC=29% 14/49   DC=14% 3/22    SCC=8% 3/38    MCDC=0% 0/19   
+
+  iox::Ownership::Ownership(unsigned int, unsigned int) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::Ownership::from_process()   LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::Ownership::from_user_and_group(const iox::UserName &, const iox::GroupName &) LC=0% 0/5      DC=0% 0/2      SCC=0% 0/4     MCDC=0% 0/2    
+  iox::Ownership::from_user_and_group(unsigned int, unsigned int) LC=0% 0/3      DC=0% 0/2      SCC=0% 0/4     MCDC=0% 0/2    
+  iox::Ownership::gid() const      LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::Ownership::uid() const      LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::details::get_file_status(int) LC=36% 4/11    DC=20% 1/5     SCC=13% 1/8    MCDC=0% 0/4    
+  iox::details::set_owner(int, unsigned int, unsigned int) LC=19% 3/16    DC=13% 1/8     SCC=7% 1/14    MCDC=0% 0/7    
+  iox::details::set_permissions(int, iox::access_rights) LC=30% 3/10    DC=20% 1/5     SCC=13% 1/8    MCDC=0% 0/4    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/filesystem/include/iox/file.hpp LC=50% 4/8     DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::FileBuilder::access_mode(const iox::posix::AccessMode &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::FileBuilder::access_mode(iox::posix::AccessMode &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::FileBuilder::open_mode(const iox::posix::OpenMode &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::FileBuilder::open_mode(iox::posix::OpenMode &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::FileBuilder::owner(const iox::Ownership &) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::FileBuilder::owner(iox::Ownership &&) && LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::FileBuilder::permissions(const iox::access_rights &) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::FileBuilder::permissions(iox::access_rights &&) && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/filesystem/source/file.cpp LC=37% 66/179  DC=37% 35/95   SCC=24% 39/162 MCDC=14% 11/81 
+
+  iox::File::File(int, iox::posix::AccessMode) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::File::File(iox::File&&)     LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::File::close_fd()            LC=38% 6/16    DC=38% 3/8     SCC=25% 3/12   MCDC=17% 1/6   
+  iox::File::does_exist(const iox::FilePath &) LC=33% 5/15    DC=38% 3/8     SCC=17% 2/12   MCDC=17% 1/6   
+  iox::File::get_file_handle() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::File::operator =(iox::File&&) LC=100% 6/6    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::File::read(unsigned char *, unsigned long) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::File::read_at(unsigned long, unsigned char *, unsigned long) const LC=32% 7/22    DC=33% 4/12    SCC=23% 5/22   MCDC=9% 1/11   
+  iox::File::remove(const iox::FilePath &) LC=23% 5/22    DC=25% 3/12    SCC=11% 2/18   MCDC=11% 1/9   
+  iox::File::set_offset(unsigned long) const LC=25% 4/16    DC=22% 2/9     SCC=14% 2/14   MCDC=0% 0/7    
+  iox::File::write(const unsigned char *, unsigned long) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::File::write_at(unsigned long, const unsigned char *, unsigned long) const LC=25% 7/28    DC=27% 4/15    SCC=18% 5/28   MCDC=7% 1/14   
+  iox::File::~File()               LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::FileBuilder::create(const iox::FilePath &) LC=60% 3/5     DC=75% 3/4     SCC=50% 3/6    MCDC=33% 1/3   
+  iox::FileBuilder::open(const iox::FilePath &) LC=40% 17/43   DC=48% 12/25   SCC=33% 16/48  MCDC=21% 5/24  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/time/source/adaptive_wait.cpp LC=100% 8/8    DC=100% 6/6    SCC=100% 6/6   MCDC=100% 3/3  
+
+  iox::detail::adaptive_wait::wait() LC=100% 6/6    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::detail::adaptive_wait::wait_loop(const iox::function_ref<bool ()> &) LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/time/source/deadline_timer.cpp LC=100% 13/13  DC=100% 2/2    SCC=83% 5/6    MCDC=67% 2/3   
+
+  iox::deadline_timer::deadline_timer(iox::units::Duration) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::deadline_timer::getCurrentMonotonicTime() LC=100% 3/3    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::deadline_timer::hasExpired() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::deadline_timer::remainingTime() const LC=100% 5/5    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::deadline_timer::reset()     LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::deadline_timer::reset(iox::units::Duration) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/vocabulary/source/file_name.cpp LC=100% 11/11  DC=100% 4/4    SCC=89% 32/36  MCDC=72% 13/18 
+
+  iox::details::file_name_does_contain_invalid_characters(const iox::string<(unsigned long)255> &) LC=100% 10/10  DC=100% 4/4    SCC=87% 26/30  MCDC=67% 10/15 
+  iox::details::file_name_does_contain_invalid_content(const iox::string<(unsigned long)255> &) LC=100% 1/1    DC=N/A         SCC=100% 6/6   MCDC=100% 3/3  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/vocabulary/source/file_path.cpp LC=100% 16/16  DC=100% 8/8    SCC=89% 34/38  MCDC=74% 14/19 
+
+  iox::details::file_path_does_contain_invalid_characters(const iox::string<(unsigned long)1023> &) LC=100% 11/11  DC=100% 4/4    SCC=88% 30/34  MCDC=71% 12/17 
+  iox::details::file_path_does_contain_invalid_characters(const iox::string<(unsigned long)1023> &)::[lambda() (instance 1)] LC=100% 4/4    DC=100% 4/4    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::details::file_path_does_contain_invalid_content(const iox::string<(unsigned long)1023> &) LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/vocabulary/source/group_name.cpp LC=100% 12/12  DC=100% 6/6    SCC=92% 24/26  MCDC=85% 11/13 
+
+  iox::details::group_name_does_contain_invalid_characters(const iox::string<(unsigned long)32> &) LC=100% 8/8    DC=100% 4/4    SCC=94% 17/18  MCDC=89% 8/9   
+  iox::details::group_name_does_contain_invalid_content(const iox::string<(unsigned long)32> &) LC=100% 4/4    DC=100% 2/2    SCC=88% 7/8    MCDC=75% 3/4   
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/vocabulary/source/path.cpp LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::details::path_does_contain_invalid_content(const iox::string<(unsigned long)1023> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/posix/vocabulary/source/user_name.cpp LC=100% 12/12  DC=100% 6/6    SCC=92% 24/26  MCDC=85% 11/13 
+
+  iox::details::user_name_does_contain_invalid_characters(const iox::string<(unsigned long)32> &) LC=100% 8/8    DC=100% 4/4    SCC=94% 17/18  MCDC=89% 8/9   
+  iox::details::user_name_does_contain_invalid_content(const iox::string<(unsigned long)32> &) LC=100% 4/4    DC=100% 2/2    SCC=88% 7/8    MCDC=75% 3/4   
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/primitives/include/iox/attributes.hpp LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  void iox::internal::IOX_DISCARD_RESULT_IMPL<T1>(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/reporting/include/iox/detail/log/building_blocks/console_logger.inl LC=92% 11/12   DC=75% 3/4     SCC=50% 1/2    MCDC=0% 0/1    
+
+  void iox::log::ConsoleLogger::logArithmetic<T1>(T1, const char *) LC=89% 8/9     DC=75% 3/4     SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::log::ConsoleLogger::logDec<T1, T2>(T1) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::log::ConsoleLogger::logHex<T1, T2>(T1) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::log::ConsoleLogger::logOct<T1, T2>(T1) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/reporting/include/iox/detail/log/building_blocks/logger.inl LC=63% 19/30   DC=63% 5/8     SCC=63% 5/8    MCDC=25% 1/4   
+
+  bool iox::log::equalStrings<unsigned int>(const char *, const char (&)[T1]) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::internal::Logger<T1>::activeLogger(iox::log::internal::Logger<T1>*) LC=63% 10/16   DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::log::internal::Logger<T1>::get() LC=75% 3/4     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::log::internal::Logger<T1>::init(iox::log::LogLevel) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::internal::Logger<T1>::initLoggerInternal(iox::log::LogLevel) LC=57% 4/7     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::log::internal::Logger<T1>::setActiveLogger(iox::log::internal::Logger<T1>&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/reporting/include/iox/detail/log/logstream.inl LC=80% 28/35   DC=100% 2/2    SCC=83% 5/6    MCDC=67% 2/3   
+
+  iox::log::LogStream& iox::log::LogStream::operator <<<T1, T2>(T1) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream& iox::log::LogStream::operator <<<T1, T2>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream& iox::log::LogStream::operator <<<T1, T2>(iox::log::LogHex<T1>) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream& iox::log::LogStream::operator <<<T1, T2>(iox::log::LogOct<T1>) LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::LogStream(const char *, int, const char *, iox::log::LogLevel) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::LogStream(const char *, int, const char *, iox::log::LogLevel, bool) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::LogStream(iox::log::internal::Logger<iox::log::ConsoleLogger> &, const char *, int, const char *, iox::log::LogLevel) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::flush()     LC=100% 3/3    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::log::LogStream::operator <<(bool) LC=100% 2/2    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::log::LogStream::operator <<(const char *) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::operator <<(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> &) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::operator <<(iox::log::LogHex<const void *const >) LC=0% 0/3      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::operator <<(iox::log::LogLevel) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::self()      LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::LogStream::~LogStream() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::hex(const void *)      LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::internal::LogStreamOff::LogStreamOff(const char *, int, const char *, iox::log::LogLevel, bool) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::internal::LogStreamOff::self() LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/reporting/include/iox/logging.hpp LC=100% 1/1    DC=N/A         SCC=75% 3/4    MCDC=50% 1/2   
+
+  iox::log::internal::isLogLevelActive(iox::log::LogLevel) LC=100% 1/1    DC=N/A         SCC=75% 3/4    MCDC=50% 1/2   
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/reporting/source/log/building_blocks/console_logger.cpp LC=85% 47/55   DC=50% 8/16    SCC=55% 11/20  MCDC=20% 2/10  
+
+  iox::log::ConsoleLogger::assumeFlushed() LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::ConsoleLogger::createLogMessageHeader(const char *, int, const char *, iox::log::LogLevel) LC=88% 28/32   DC=50% 5/10    SCC=50% 6/12   MCDC=0% 0/6    
+  iox::log::ConsoleLogger::flush() LC=0% 0/3      DC=0% 0/2      SCC=0% 0/2     MCDC=0% 0/1    
+  iox::log::ConsoleLogger::getLogBuffer() const LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::ConsoleLogger::getLogLevel() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::ConsoleLogger::getThreadLocalData() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::ConsoleLogger::initLogger(iox::log::LogLevel) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::log::ConsoleLogger::logBool(bool) LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::log::ConsoleLogger::logString(const char *) LC=89% 8/9     DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::log::ConsoleLogger::setLogLevel(iox::log::LogLevel) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/reporting/source/log/building_blocks/logger.cpp LC=14% 3/21    DC=6% 1/16     SCC=6% 1/16    MCDC=0% 0/8    
+
+  iox::log::logLevelFromEnvOr(iox::log::LogLevel) LC=14% 3/21    DC=6% 1/16     SCC=6% 1/16    MCDC=0% 0/8    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/concurrent/loffli.cpp LC=100% 31/31  DC=75% 9/12    SCC=75% 18/24  MCDC=50% 6/12  
+
+  iox::concurrent::LoFFLi::init(iox::not_null<unsigned int *, void>, unsigned int) LC=100% 10/10  DC=75% 3/4     SCC=80% 8/10   MCDC=60% 3/5   
+  iox::concurrent::LoFFLi::pop(unsigned int &) LC=100% 11/11  DC=75% 3/4     SCC=67% 4/6    MCDC=33% 1/3   
+  iox::concurrent::LoFFLi::push(unsigned int) LC=100% 10/10  DC=75% 3/4     SCC=75% 6/8    MCDC=50% 2/4   
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/cxx/requires.cpp LC=100% 6/6    DC=100% 4/4    SCC=75% 6/8    MCDC=50% 2/4   
+
+  iox::cxx::internal::Require(bool, const char *, int, const char *, const char *) LC=100% 3/3    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::cxx::internal::Require(bool, const char *, int, const char *, const char *, const char *) LC=100% 3/3    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/error_handling/error_handler.cpp LC=0% 0/12     DC=0% 0/4      SCC=0% 0/6     MCDC=0% 0/3    
+
+  iox::ErrorHandler::defaultHandler(unsigned int, const char *, iox::ErrorLevel) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::ErrorHandler::reactOnErrorLevel(iox::ErrorLevel, const char *) LC=0% 0/11     DC=0% 0/4      SCC=0% 0/6     MCDC=0% 0/3    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/error_handling/error_handling.cpp LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::asStringLiteral(iox::HoofsError) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/error_reporting/custom/default/default_error_handler.cpp LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::er::DefaultErrorHandler::onPanic() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::DefaultErrorHandler::onReportError(iox::er::ErrorDescriptor) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::er::DefaultErrorHandler::onReportViolation(iox::er::ErrorDescriptor) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/access_control.cpp LC=75% 76/101  DC=73% 40/55   SCC=49% 44/90  MCDC=22% 10/45 
+
+  iox::posix::AccessController::addAclPermission(__acl_permset_ext *, unsigned int) LC=60% 3/5     DC=50% 1/2     SCC=25% 1/4    MCDC=0% 0/2    
+  iox::posix::AccessController::addGroupPermission(iox::posix::AccessController::Permission, const iox::string<(unsigned long)32> &) LC=71% 5/7     DC=75% 3/4     SCC=63% 5/8    MCDC=50% 2/4   
+  iox::posix::AccessController::addPermissionEntry(iox::posix::AccessController::Category, iox::posix::AccessController::Permission, unsigned int) LC=100% 17/17  DC=100% 9/9    SCC=71% 10/14  MCDC=43% 3/7   
+  iox::posix::AccessController::addUserPermission(iox::posix::AccessController::Permission, const iox::string<(unsigned long)32> &) LC=71% 5/7     DC=75% 3/4     SCC=50% 4/8    MCDC=25% 1/4   
+  iox::posix::AccessController::createACL(int) LC=80% 4/5     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::AccessController::createACL(int)::[lambda(__acl_ext *) (instance 1)] LC=100% 2/2    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::AccessController::createACLEntry(__acl_ext *, const iox::posix::AccessController::PermissionEntry &) LC=64% 23/36   DC=60% 12/20   SCC=29% 8/28   MCDC=0% 0/14   
+  iox::posix::AccessController::writePermissionsToFile(int) const LC=77% 17/22   DC=79% 11/14   SCC=58% 14/24  MCDC=33% 4/12  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/file_lock.cpp LC=41% 38/92   DC=38% 15/40   SCC=23% 18/80  MCDC=10% 4/40  
+
+  iox::posix::FileLock::FileLock(int, const iox::string<(unsigned long)1023> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::FileLock::FileLock(iox::posix::FileLock&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::FileLock::closeFileDescriptor() LC=88% 7/8     DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::FileLock::closeFileDescriptor()::[lambda(T1 &) (instance 1)] LC=0% 0/3      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::FileLock::closeFileDescriptor()::[lambda(T1 &) (instance 2)] LC=0% 0/3      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::FileLock::closeFileDescriptor()::[lambda(T1 &) (instance 3)] LC=0% 0/3      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::FileLock::convertErrnoToFileLockError(int, const iox::string<(unsigned long)1023> &) LC=5% 2/40     DC=5% 1/20     SCC=0% 0/38    MCDC=0% 0/19   
+  iox::posix::FileLock::invalidate() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::FileLock::operator =(iox::posix::FileLock&&) LC=86% 6/7     DC=50% 2/4     SCC=33% 2/6    MCDC=0% 0/3    
+  iox::posix::FileLock::~FileLock() LC=50% 1/2     DC=50% 1/2     SCC=25% 1/4    MCDC=0% 0/2    
+  iox::posix::FileLockBuilder::create() LC=90% 18/20   DC=80% 8/10    SCC=60% 12/20  MCDC=30% 3/10  
+  iox::posix::FileLockBuilder::create()::[lambda(T1 &) (instance 1)] LC=0% 0/2      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/mutex.cpp LC=46% 71/155  DC=40% 31/77   SCC=25% 34/136 MCDC=7% 5/68   
+
+  iox::posix::MutexAttributes::enableIpcSupport(bool) LC=38% 3/8     DC=25% 1/4     SCC=25% 2/8    MCDC=0% 0/4    
+  iox::posix::MutexAttributes::init() LC=44% 4/9     DC=25% 1/4     SCC=17% 1/6    MCDC=0% 0/3    
+  iox::posix::MutexAttributes::setPrioCeiling(int) LC=0% 0/12     DC=0% 0/6      SCC=0% 0/8     MCDC=0% 0/4    
+  iox::posix::MutexAttributes::setProtocol(iox::posix::MutexPriorityInheritance) LC=25% 3/12    DC=17% 1/6     SCC=10% 1/10   MCDC=0% 0/5    
+  iox::posix::MutexAttributes::setThreadTerminationBehavior(iox::posix::MutexThreadTerminationBehavior) LC=60% 3/5     DC=50% 1/2     SCC=25% 1/4    MCDC=0% 0/2    
+  iox::posix::MutexAttributes::setType(iox::posix::MutexType) LC=60% 3/5     DC=50% 1/2     SCC=25% 1/4    MCDC=0% 0/2    
+  iox::posix::MutexAttributes::~MutexAttributes() LC=75% 3/4     DC=50% 2/4     SCC=33% 2/6    MCDC=0% 0/3    
+  iox::posix::MutexBuilder::create(iox::optional<iox::posix::mutex> &) LC=68% 21/31   DC=50% 9/18    SCC=46% 11/24  MCDC=8% 1/12   
+  iox::posix::initializeMutex(pthread_mutex_t *, const pthread_mutexattr_t *) LC=25% 3/12    DC=17% 1/6     SCC=10% 1/10   MCDC=0% 0/5    
+  iox::posix::mutex::lock()        LC=40% 6/15    DC=43% 3/7     SCC=25% 3/12   MCDC=17% 1/6   
+  iox::posix::mutex::make_consistent() LC=100% 2/2    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::mutex::make_consistent()::[lambda(T1) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::mutex::make_consistent()::[lambda(T1) (instance 2)] LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::mutex::mutex(bool)   LC=0% 0/9      DC=N/A         SCC=0% 0/16    MCDC=0% 0/8    
+  iox::posix::mutex::try_lock()    LC=54% 7/13    DC=50% 3/6     SCC=30% 3/10   MCDC=20% 1/5   
+  iox::posix::mutex::unlock()      LC=75% 6/8     DC=75% 3/4     SCC=50% 3/6    MCDC=33% 1/3   
+  iox::posix::mutex::~mutex()      LC=75% 6/8     DC=67% 4/6     SCC=50% 4/8    MCDC=25% 1/4   
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/named_semaphore.cpp LC=63% 50/80   DC=60% 27/45   SCC=46% 31/68  MCDC=29% 10/34 
+
+  iox::posix::NamedSemaphore::NamedSemaphore(sem_t *, const iox::string<(unsigned long)250> &, bool) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphore::getHandle() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::NamedSemaphore::~NamedSemaphore() LC=75% 3/4     DC=75% 3/4     SCC=50% 3/6    MCDC=33% 1/3   
+  iox::posix::NamedSemaphoreBuilder::create(iox::optional<iox::posix::NamedSemaphore> &) const LC=89% 24/27   DC=85% 17/20   SCC=77% 20/26  MCDC=54% 7/13  
+  iox::posix::createNameWithSlash(const iox::string<(unsigned long)250> &) LC=100% 3/3    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::createSemaphore(iox::optional<iox::posix::NamedSemaphore> &, const iox::string<(unsigned long)250> &, iox::posix::OpenMode, iox::access_rights, unsigned int) LC=44% 8/18    DC=38% 3/8     SCC=21% 3/14   MCDC=14% 1/7   
+  iox::posix::tryOpenExistingSemaphore(iox::optional<iox::posix::NamedSemaphore> &, const iox::string<(unsigned long)250> &) LC=39% 7/18    DC=33% 3/9     SCC=21% 3/14   MCDC=14% 1/7   
+  iox::posix::unlink(const iox::string<(unsigned long)250> &) LC=38% 3/8     DC=25% 1/4     SCC=17% 1/6    MCDC=0% 0/3    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/posix_access_rights.cpp LC=38% 26/68   DC=31% 8/26    SCC=23% 12/52  MCDC=15% 4/26  
+
+  iox::posix::PosixGroup::PosixGroup(const iox::string<(unsigned long)32> &) LC=0% 0/5      DC=0% 0/2      SCC=0% 0/4     MCDC=0% 0/2    
+  iox::posix::PosixGroup::PosixGroup(unsigned int) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixGroup::doesExist() const LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::PosixGroup::getGroupID(const iox::string<(unsigned long)32> &) LC=100% 5/5    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::PosixGroup::getGroupName(unsigned int) LC=100% 5/5    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::PosixGroup::getGroupOfCurrentProcess() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixGroup::getID() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixGroup::getName() const LC=0% 0/4      DC=0% 0/2      SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::PosixGroup::operator ==(const iox::posix::PosixGroup&) const LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::PosixUser::PosixUser(const iox::string<(unsigned long)32> &) LC=0% 0/5      DC=0% 0/2      SCC=0% 0/4     MCDC=0% 0/2    
+  iox::posix::PosixUser::PosixUser(unsigned int) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixUser::doesExist() const LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::PosixUser::getGroups() const LC=0% 0/21     DC=0% 0/10     SCC=0% 0/18    MCDC=0% 0/9    
+  iox::posix::PosixUser::getID() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::PosixUser::getName() const LC=0% 0/4      DC=0% 0/2      SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::PosixUser::getUserID(const iox::string<(unsigned long)32> &) LC=100% 5/5    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::PosixUser::getUserName(unsigned int) LC=100% 5/5    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::PosixUser::getUserOfCurrentProcess() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/scheduler.cpp LC=0% 0/12     DC=0% 0/4      SCC=0% 0/8     MCDC=0% 0/4    
+
+  iox::posix::getSchedulerPriorityMaximum(iox::posix::Scheduler) LC=0% 0/6      DC=0% 0/2      SCC=0% 0/4     MCDC=0% 0/2    
+  iox::posix::getSchedulerPriorityMinimum(iox::posix::Scheduler) LC=0% 0/6      DC=0% 0/2      SCC=0% 0/4     MCDC=0% 0/2    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/semaphore_interface.cpp LC=64% 18/28   DC=50% 6/12    SCC=44% 8/18   MCDC=22% 2/9   
+
+  iox::posix::internal::SemaphoreInterface<T1>::getHandle() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::internal::SemaphoreInterface<T1>::post() LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::posix::internal::SemaphoreInterface<T1>::timedWait(const iox::units::Duration &) LC=80% 4/5     DC=50% 1/2     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::internal::SemaphoreInterface<T1>::tryWait() LC=75% 3/4     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::internal::SemaphoreInterface<T1>::wait() LC=75% 3/4     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::internal::errnoToEnum(int) LC=30% 3/10    DC=25% 1/4     SCC=13% 1/8    MCDC=0% 0/4    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/shared_memory_object.cpp LC=67% 33/49   DC=69% 11/16   SCC=47% 17/36  MCDC=17% 3/18  
+
+  iox::posix::SharedMemoryObject::SharedMemoryObject(iox::posix::SharedMemory &&, iox::posix::MemoryMap &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObject::getBaseAddress() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObject::getBaseAddress() const LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObject::getFileHandle() const LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObject::get_file_handle() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryObject::hasOwnership() const LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::SharedMemoryObjectBuilder::create() LC=74% 25/34   DC=71% 10/14   SCC=50% 15/30  MCDC=20% 3/15  
+  iox::posix::SharedMemoryObjectBuilder::create()::[lambda() (instance 1)] LC=100% 2/2    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::SharedMemoryObjectBuilder::create()::[lambda() (instance 1)]::operator ()() const::[lambda(iox::log::LogStream &) (instance 1)] LC=75% 3/4     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::memsetSigbusHandler(int) LC=0% 0/3      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/shared_memory_object/memory_map.cpp LC=35% 20/57   DC=29% 7/24    SCC=16% 7/44   MCDC=5% 1/22   
+
+  iox::posix::MemoryMap::MemoryMap(iox::posix::MemoryMap&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMap::MemoryMap(void *, unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMap::destroy() LC=67% 6/9     DC=75% 3/4     SCC=50% 3/6    MCDC=33% 1/3   
+  iox::posix::MemoryMap::errnoToEnum(int) LC=0% 0/26     DC=0% 0/12     SCC=0% 0/24    MCDC=0% 0/12   
+  iox::posix::MemoryMap::getBaseAddress() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMap::getBaseAddress() const LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::MemoryMap::operator =(iox::posix::MemoryMap&&) LC=88% 7/8     DC=50% 2/4     SCC=33% 2/6    MCDC=0% 0/3    
+  iox::posix::MemoryMap::~MemoryMap() LC=50% 1/2     DC=50% 1/2     SCC=25% 1/4    MCDC=0% 0/2    
+  iox::posix::MemoryMapBuilder::create() LC=38% 3/8     DC=50% 1/2     SCC=25% 1/4    MCDC=0% 0/2    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/shared_memory_object/shared_memory.cpp LC=70% 73/105  DC=63% 26/41   SCC=53% 51/96  MCDC=38% 18/48 
+
+  iox::posix::SharedMemory::SharedMemory(const iox::string<(unsigned long)4096> &, int, bool) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemory::SharedMemory(iox::posix::SharedMemory&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemory::close() LC=100% 5/5    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::SharedMemory::close()::[lambda(T1 &) (instance 1)] LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::SharedMemory::destroy() LC=100% 2/2    DC=N/A         SCC=50% 2/4    MCDC=0% 0/2    
+  iox::posix::SharedMemory::errnoToEnum(int) LC=19% 5/27    DC=15% 2/13    SCC=8% 2/26    MCDC=0% 0/13   
+  iox::posix::SharedMemory::getHandle() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemory::get_file_handle() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemory::hasOwnership() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::posix::SharedMemory::operator =(iox::posix::SharedMemory&&) LC=100% 7/7    DC=50% 1/2     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::SharedMemory::reset() LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemory::unlink() LC=75% 6/8     DC=75% 3/4     SCC=50% 4/8    MCDC=25% 1/4   
+  iox::posix::SharedMemory::unlinkIfExist(const iox::string<(unsigned long)4096> &) LC=80% 4/5     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::SharedMemory::~SharedMemory() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::create() LC=88% 30/34   DC=94% 17/18   SCC=87% 33/38  MCDC=74% 14/19 
+  iox::posix::SharedMemoryBuilder::create()::[lambda() (instance 1)] LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::SharedMemoryBuilder::create()::[lambda() (instance 2)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SharedMemoryBuilder::create()::[lambda(T1 &) (instance 1)] LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::SharedMemoryBuilder::create()::[lambda(T1 &) (instance 2)] LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::addLeadingSlash(const iox::string<(unsigned long)4096> &) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/signal_handler.cpp LC=72% 13/18   DC=67% 4/6     SCC=33% 4/12   MCDC=17% 1/6   
+
+  iox::posix::SignalGuard::SignalGuard(iox::posix::Signal, const sigaction &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SignalGuard::SignalGuard(iox::posix::SignalGuard&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::SignalGuard::restorePreviousAction() LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::posix::SignalGuard::restorePreviousAction()::[lambda(T1 &) (instance 1)] LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::SignalGuard::~SignalGuard() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::registerSignalHandler(iox::posix::Signal, void (*)(int)) LC=64% 7/11    DC=50% 2/4     SCC=25% 2/8    MCDC=0% 0/4    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/system_configuration.cpp LC=0% 0/3      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+
+  iox::internal::pageSize()        LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::pageSize()::[lambda(T1 &) (instance 1)] LC=0% 0/2      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/thread.cpp LC=39% 17/44   DC=23% 3/13    SCC=14% 4/28   MCDC=0% 0/14   
+
+  iox::posix::Thread::Thread(const iox::string<(unsigned long)15> &, const iox::storable_function<(unsigned long)128, void ()> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::Thread::errnoToEnum(int) LC=0% 0/11     DC=0% 0/5      SCC=0% 0/10    MCDC=0% 0/5    
+  iox::posix::Thread::getName() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::Thread::startRoutine(void *) LC=100% 5/5    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::Thread::startRoutine(void *)::[lambda(T1 &) (instance 1)] LC=0% 0/2      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::Thread::~Thread()    LC=38% 3/8     DC=33% 2/6     SCC=25% 2/8    MCDC=0% 0/4    
+  iox::posix::ThreadBuilder::create(iox::optional<iox::posix::Thread> &, const iox::storable_function<(unsigned long)128, void ()> &) LC=75% 6/8     DC=50% 1/2     SCC=50% 2/4    MCDC=0% 0/2    
+  iox::posix::getThreadName(unsigned long) LC=0% 0/3      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::getThreadName(unsigned long)::[lambda(T1 &) (instance 1)] LC=0% 0/2      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::setThreadName(unsigned long, const iox::string<(unsigned long)15> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::setThreadName(unsigned long, const iox::string<(unsigned long)15> &)::[lambda(T1 &) (instance 1)] LC=0% 0/2      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/types.cpp LC=100% 19/19  DC=100% 12/12  SCC=50% 3/6    MCDC=0% 0/3    
+
+  iox::posix::convertToOflags(iox::posix::AccessMode) LC=100% 6/6    DC=100% 4/4    SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::convertToOflags(iox::posix::AccessMode, iox::posix::OpenMode) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::convertToOflags(iox::posix::OpenMode) LC=100% 6/6    DC=100% 4/4    SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::convertToProtFlags(iox::posix::AccessMode) LC=100% 6/6    DC=100% 4/4    SCC=50% 1/2    MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/unix_domain_socket.cpp LC=57% 92/162  DC=49% 38/78   SCC=36% 40/112 MCDC=18% 10/56 
+
+  iox::posix::UnixDomainSocket::UnixDomainSocket(const iox::string<(unsigned long)100> &, iox::posix::IpcChannelSide, unsigned long, unsigned long) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnixDomainSocket::UnixDomainSocket(const iox::string<(unsigned long)100> &, iox::posix::IpcChannelSide, unsigned long, unsigned long)::[lambda() (instance 1)] LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::posix::UnixDomainSocket::UnixDomainSocket(iox::posix::UnixDomainSocket&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnixDomainSocket::UnixDomainSocket(iox::posix::UnixDomainSocket::NoPathPrefix_t, const iox::string<(unsigned long)107> &, iox::posix::IpcChannelSide, unsigned long, unsigned long) LC=44% 4/9     DC=50% 2/4     SCC=50% 2/4    MCDC=0% 0/2    
+  iox::posix::UnixDomainSocket::UnixDomainSocket(iox::posix::UnixDomainSocket::NoPathPrefix_t, const iox::string<(unsigned long)107> &, iox::posix::IpcChannelSide, unsigned long, unsigned long)::[lambda() (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnixDomainSocket::UnixDomainSocket(iox::posix::UnixDomainSocket::NoPathPrefix_t, const iox::string<(unsigned long)107> &, iox::posix::IpcChannelSide, unsigned long, unsigned long)::[lambda(iox::posix::IpcChannelError &) (instance 1)] LC=0% 0/2      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnixDomainSocket::closeFileDescriptor() LC=75% 9/12    DC=63% 5/8     SCC=63% 5/8    MCDC=25% 1/4   
+  iox::posix::UnixDomainSocket::convertErrnoToIpcChannelError(int) const LC=4% 2/46     DC=4% 1/24     SCC=0% 0/42    MCDC=0% 0/21   
+  iox::posix::UnixDomainSocket::destroy() LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::posix::UnixDomainSocket::initalizeSocket() LC=73% 16/22   DC=60% 6/10    SCC=60% 6/10   MCDC=20% 1/5   
+  iox::posix::UnixDomainSocket::initalizeSocket()::[lambda() (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnixDomainSocket::initalizeSocket()::[lambda(T1 &) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnixDomainSocket::initalizeSocket()::[lambda(T1) (instance 1)] LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::UnixDomainSocket::initalizeSocket()::[lambda(T1) (instance 2)] LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::UnixDomainSocket::isInitialized() const LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  iox::posix::UnixDomainSocket::operator =(iox::posix::UnixDomainSocket&&) LC=92% 12/13   DC=50% 2/4     SCC=38% 3/8    MCDC=0% 0/4    
+  iox::posix::UnixDomainSocket::receive[abi:cxx11]() const LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnixDomainSocket::send(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> &) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnixDomainSocket::timedReceive[abi:cxx11](const iox::units::Duration &) const LC=92% 12/13   DC=83% 5/6     SCC=75% 6/8    MCDC=50% 2/4   
+  iox::posix::UnixDomainSocket::timedSend(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> &, const iox::units::Duration &) const LC=85% 11/13   DC=75% 6/8     SCC=70% 7/10   MCDC=40% 2/5   
+  iox::posix::UnixDomainSocket::unlinkIfExists(const iox::string<(unsigned long)107> &) LC=100% 5/5    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  iox::posix::UnixDomainSocket::unlinkIfExists(iox::posix::UnixDomainSocket::NoPathPrefix_t, const iox::string<(unsigned long)107> &) LC=83% 5/6     DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::posix::UnixDomainSocket::~UnixDomainSocket() LC=50% 1/2     DC=50% 1/2     SCC=25% 1/4    MCDC=0% 0/2    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/source/posix_wrapper/unnamed_semaphore.cpp LC=44% 11/25   DC=38% 5/13    SCC=36% 8/22   MCDC=18% 2/11  
+
+  iox::posix::UnnamedSemaphore::getHandle() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::posix::UnnamedSemaphore::~UnnamedSemaphore() LC=38% 3/8     DC=33% 2/6     SCC=25% 2/8    MCDC=0% 0/4    
+  iox::posix::UnnamedSemaphoreBuilder::create(iox::optional<iox::posix::UnnamedSemaphore> &) const LC=44% 7/16    DC=43% 3/7     SCC=43% 6/14   MCDC=29% 2/7   
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/compile_test.cpp LC=0% 0/8      DC=0% 0/2      SCC=0% 0/2     MCDC=0% 0/1    
+
+  CompileTest::CompileTest(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> &, const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>> &) LC=0% 0/2      DC=0% 0/2      SCC=N/A        MCDC=N/A       
+  CompileTest::verify(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> &) const LC=0% 0/6      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/error_reporting/testing_error_handler.cpp LC=97% 32/33   DC=92% 11/12   SCC=78% 14/18  MCDC=56% 5/9   
+
+  iox::testing::TestErrorHandler::TestErrorHandler() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestErrorHandler::hasError() const LC=100% 2/2    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::testing::TestErrorHandler::hasError(iox::er::ErrorCode, iox::er::ModuleId) const LC=88% 7/8     DC=83% 5/6     SCC=67% 4/6    MCDC=33% 1/3   
+  iox::testing::TestErrorHandler::hasPanicked() const LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::testing::TestErrorHandler::hasViolation(iox::er::ErrorCode) const LC=100% 5/5    DC=100% 4/4    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::testing::TestErrorHandler::jump() LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::testing::TestErrorHandler::jumpIndicator() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestErrorHandler::onPanic() LC=100% 2/2    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::testing::TestErrorHandler::onReportError(iox::er::ErrorDescriptor) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestErrorHandler::onReportViolation(iox::er::ErrorDescriptor) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestErrorHandler::prepareJump() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestErrorHandler::reset() LC=100% 5/5    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/error_reporting/testing_support.cpp LC=100% 8/8    DC=N/A         SCC=67% 12/18  MCDC=33% 3/9   
+
+  iox::testing::hasAssumptionViolation() LC=100% 2/2    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::testing::hasError()         LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::testing::hasPanicked()      LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::testing::hasPreconditionViolation() LC=100% 2/2    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::testing::hasViolation()     LC=100% 1/1    DC=N/A         SCC=50% 2/4    MCDC=0% 0/2    
+  iox::testing::isInNormalState()  LC=100% 1/1    DC=N/A         SCC=50% 3/6    MCDC=0% 0/3    
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/include/iceoryx_hoofs/testing/barrier.hpp LC=69% 9/13    DC=100% 2/2    SCC=100% 4/4   MCDC=100% 2/2  
+
+  Barrier::Barrier(unsigned int)   LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  Barrier::notify()                LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  Barrier::reset(unsigned int)     LC=0% 0/4      DC=N/A         SCC=N/A        MCDC=N/A       
+  Barrier::wait()                  LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  Barrier::wait()::[lambda() (instance 1)] LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/include/iceoryx_hoofs/testing/error_reporting/testing_support.hpp LC=92% 12/13   DC=67% 4/6     SCC=67% 4/6    MCDC=33% 1/3   
+
+  bool iox::testing::hasError<T1>(T1 &&) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::testing::runInTestThread<T1, T2...>(T1 &&, T2 &&...) LC=100% 4/4    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::testing::runInTestThread<T1, T2...>(T1 &&, T2 &&...)::[lambda() (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::testing::testContext<T1, T2...>(T1 &&, T2 &&...) LC=83% 5/6     DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/include/iceoryx_hoofs/testing/fatal_failure.inl LC=88% 23/26   DC=67% 4/6     SCC=70% 7/10   MCDC=40% 2/5   
+
+  bool iox::testing::IOX_EXPECT_FATAL_FAILURE<T1>(iox::function_ref<void ()>, T1) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::testing::IOX_EXPECT_FATAL_FAILURE<T1>(iox::function_ref<void ()>, T1)::[lambda() (instance 1)] LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::testing::IOX_EXPECT_FATAL_FAILURE<iox::HoofsError>(iox::function_ref<void ()>, T1)::[lambda(T1, T2) (instance 1)] LC=100% 2/2    DC=50% 2/4     SCC=50% 2/4    MCDC=0% 0/2    
+  bool iox::testing::IOX_EXPECT_NO_FATAL_FAILURE<T1>(iox::function_ref<void ()>) LC=50% 1/2     DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::testing::IOX_EXPECT_NO_FATAL_FAILURE<T1>(iox::function_ref<void ()>)::[lambda() (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::testing::IOX_EXPECT_NO_FATAL_FAILURE<iox::HoofsError>(iox::function_ref<void ()>)::[lambda(T1, T2) (instance 1)] LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::testing::detail::IOX_FATAL_FAILURE_TEST<T1>(iox::function_ref<void ()>, iox::function_ref<void (T1, iox::ErrorLevel)>, iox::function_ref<void ()>) LC=100% 4/4    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  bool iox::testing::detail::IOX_FATAL_FAILURE_TEST<T1>(iox::function_ref<void ()>, iox::function_ref<void (T1, iox::ErrorLevel)>, iox::function_ref<void ()>)::[lambda() (instance 1)] LC=100% 11/11  DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  bool iox::testing::detail::IOX_FATAL_FAILURE_TEST<iox::HoofsError>(iox::function_ref<void ()>, iox::function_ref<void (T1, iox::ErrorLevel)>, iox::function_ref<void ()>)::[lambda() (instance 1)]::operator ()() const::[lambda(T1, T2) (instance 1)] LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/include/iceoryx_hoofs/testing/mocks/error_handler_mock.hpp LC=93% 13/14   DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+
+  iox::ScopeGuardWithVariableCapacity<(unsigned long)128> iox::ErrorHandlerMock::setTemporaryErrorHandler<T1>(const iox::storable_function<(unsigned long)128, void (T1, iox::ErrorLevel)> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::ScopeGuardWithVariableCapacity<(unsigned long)128> iox::ErrorHandlerMock::setTemporaryErrorHandler<T1>(const iox::storable_function<(unsigned long)128, void (T1, iox::ErrorLevel)> &)::[lambda() (instance 1)] LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::ScopeGuardWithVariableCapacity<(unsigned long)128> iox::ErrorHandlerMock::setTemporaryErrorHandler<T1>(const iox::storable_function<(unsigned long)128, void (T1, iox::ErrorLevel)> &)::[lambda() (instance 2)] LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::errorHandlerForTest<T1>(unsigned int, const char *, iox::ErrorLevel) LC=83% 5/6     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  void iox::errorHandlerForTest<T1>(unsigned int, const char *, iox::ErrorLevel)::[lambda(iox::storable_function<(unsigned long)128, void (T1, iox::ErrorLevel)>) (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/include/iceoryx_hoofs/testing/mocks/logger_mock.hpp LC=100% 10/10  DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::testing::Logger_Mock::createLogMessageHeader(const char *, int, const char *, iox::log::LogLevel) LC=100% 7/7    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::Logger_Mock::flush() LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/include/iceoryx_hoofs/testing/mocks/mocks.inl LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  T1 mocks::assignSymbol<T1>(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> &) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/include/iceoryx_hoofs/testing/mocks/time_mock.hpp LC=0% 0/10     DC=N/A         SCC=N/A        MCDC=N/A       
+
+  time_MOCK::clock_getres(int, timespec *) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::clock_gettime(int, timespec *) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::clock_settime(int, const timespec *) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::gmock_clock_getres(const testing::Matcher<int> &, const testing::Matcher<timespec *> &) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::gmock_clock_getres(const testing::internal::WithoutMatchers &, testing::internal::Function<int (int, timespec *)> *) const LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::gmock_clock_gettime(const testing::Matcher<int> &, const testing::Matcher<timespec *> &) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::gmock_clock_gettime(const testing::internal::WithoutMatchers &, testing::internal::Function<int (int, timespec *)> *) const LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::gmock_clock_settime(const testing::Matcher<int> &, const testing::Matcher<const timespec *> &) LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::gmock_clock_settime(const testing::internal::WithoutMatchers &, testing::internal::Function<int (int, const timespec *)> *) const LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::~time_MOCK()          LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/mocks/time_mock.cpp LC=29% 2/7     DC=N/A         SCC=17% 1/6    MCDC=0% 0/3    
+
+  clock_getres()                   LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  clock_getres::[lambda() (instance 1)] LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  clock_gettime()                  LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  clock_gettime::[lambda() (instance 1)] LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  clock_settime()                  LC=0% 0/1      DC=N/A         SCC=0% 0/2     MCDC=0% 0/1    
+  clock_settime::[lambda() (instance 1)] LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+  time_MOCK::time_MOCK()           LC=0% 0/1      DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/testing_logger.cpp LC=51% 30/59   DC=24% 4/17    SCC=29% 4/14   MCDC=0% 0/7    
+
+  iox::testing::LogPrinter::OnTestPartResult(const testing::TestPartResult &) LC=50% 1/2     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::testing::LogPrinter::OnTestStart(const testing::TestInfo &) LC=100% 10/10  DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::LogPrinter::OnTestStart(const testing::TestInfo &)::[lambda() (instance 1)] LC=0% 0/3      DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestingLogger::checkLogMessageIfLogLevelIsSupported(iox::log::LogLevel, const std::function<void (const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>> &)> &) LC=100% 2/2    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::testing::TestingLogger::clearLogBuffer() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestingLogger::flush() LC=83% 5/6     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::testing::TestingLogger::getLogMessages[abi:cxx11]() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestingLogger::getNumberOfLogMessages() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::testing::TestingLogger::init() LC=50% 7/14    DC=25% 1/4     SCC=17% 1/6    MCDC=0% 0/3    
+  iox::testing::TestingLogger::printLogBuffer() LC=0% 0/7      DC=0% 0/4      SCC=0% 0/2     MCDC=0% 0/1    
+  iox::testing::sigHandler(int, siginfo_t *, void *) LC=0% 0/10     DC=0% 0/3      SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/testing/timing_test.cpp LC=92% 12/13   DC=83% 5/6     SCC=88% 7/8    MCDC=75% 3/4   
+
+  iox::utils::testing::performingTimingTest(const std::function<void ()> &, unsigned long, std::atomic<bool> &) LC=83% 5/6     DC=75% 3/4     SCC=75% 3/4    MCDC=50% 1/2   
+  iox::utils::testing::verifyTimingTestResult[abi:cxx11](const char *, int, const char *, bool, bool, std::atomic<bool> &) LC=100% 7/7    DC=100% 2/2    SCC=100% 4/4   MCDC=100% 2/2  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/time/source/duration.cpp LC=100% 25/25  DC=100% 6/6    SCC=79% 11/14  MCDC=57% 4/7   
+
+  iox::units::Duration::timespec(iox::units::TimeSpecReference) const LC=100% 21/21  DC=100% 6/6    SCC=79% 11/14  MCDC=57% 4/7   
+  iox::units::operator <<(iox::log::LogStream &, iox::units::Duration) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::units::operator <<(std::ostream&, iox::units::Duration) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/utility/source/unique_id.cpp LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::UniqueId::UniqueId()        LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/detail/expected.inl LC=100% 45/45  DC=83% 5/6     SCC=83% 5/6    MCDC=67% 2/3   
+
+  const std::enable_if<(!std::is_void<T1>::value), T1>::type & iox::expected<T1, T2>::operator *<T1>() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  const std::enable_if<(!std::is_void<T1>::value), T1>::type & iox::expected<T1, T2>::value<T1>() const & LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  const std::enable_if<(!std::is_void<T1>::value), T1>::type & iox::expected<T1, T2>::value_checked<T1>() const & LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  const std::enable_if<(!std::is_void<T1>::value), T1>::type && iox::expected<T1, T2>::value<T1>() const && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  const std::enable_if<(!std::is_void<T1>::value), T1>::type * iox::expected<T1, T2>::operator -><T1>() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::err<T1> iox::err<T1, T2...>(T2 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::err<T1> iox::err<T1, T2>(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::err<T1> iox::err<T1>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::ok<T1> iox::ok<T1, T2, T3>(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::ok<T1> iox::ok<T1, T2..., T3>(T2 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::ok<T1> iox::ok<T1, T2>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::ok<void> iox::ok<T1, T2>() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::error() & LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::error() && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::error() const & LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::error() const && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::error_checked() & LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::error_checked() const & LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::expected(const iox::detail::err<T2> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::expected(const iox::detail::ok<T1> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::expected(iox::detail::err<T2> &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::expected(iox::detail::ok<T1> &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::expected(iox::expected<T1, T2>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::expected<T1...>(iox::in_place_t, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::expected<T1...>(iox::unexpect_t, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::has_error() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::has_value() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::operator =(iox::expected<T1, T2>&&) LC=100% 3/3    DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::expected<T1, T2>::operator bool() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, T2>::operator iox::expected<void, T2>() const LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::optional<std::enable_if<(!std::is_void<T1>::value), T1>::type> iox::expected<T1, T2>::to_optional<T1>() const LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  std::enable_if<(!std::is_void<T1>::value), T1>::type & iox::expected<T1, T2>::operator *<T1>() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<(!std::is_void<T1>::value), T1>::type & iox::expected<T1, T2>::value<T1>() & LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<(!std::is_void<T1>::value), T1>::type & iox::expected<T1, T2>::value_checked<T1>() & LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<(!std::is_void<T1>::value), T1>::type && iox::expected<T1, T2>::value<T1>() && LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<(!std::is_void<T1>::value), T1>::type * iox::expected<T1, T2>::operator -><T1>() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/detail/expected_helper.hpp LC=100% 17/17  DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::detail::err<T1>::err(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::err<T1>::err<T1, T2>(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::err<T1>::err<T1...>(T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<T1, T2>::error_unchecked() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<T1, T2>::expected_storage<T1...>(iox::in_place_t, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<T1, T2>::expected_storage<T1...>(iox::unexpect_t, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<T1, T2>::has_error() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<T1, T2>::has_value() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<T1, T2>::value_unchecked() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<void, T1>::error_unchecked() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<void, T1>::expected_storage<T1...>(iox::in_place_t, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<void, T1>::expected_storage<T1...>(iox::unexpect_t, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<void, T1>::has_error() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::expected_storage<void, T1>::has_value() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::ok<T1>::ok(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::ok<T1>::ok<T1, T2>(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::detail::ok<T1>::ok<T1...>(T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/detail/optional.inl LC=100% 69/69  DC=93% 28/30   SCC=90% 38/42  MCDC=81% 17/21 
+
+  T1 & iox::optional<T1>::emplace<T1...>(T1 &&...) LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  bool iox::operator !=<T1>(const iox::optional<T1> &, const iox::optional<T1> &) LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::operator !=<T1>(const iox::optional<T1> &, iox::nullopt_t) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::operator !=<T1>(iox::nullopt_t, const iox::optional<T1> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::operator ==<T1>(const iox::optional<T1> &, const iox::optional<T1> &) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::operator ==<T1>(const iox::optional<T1> &, iox::nullopt_t) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::operator ==<T1>(iox::nullopt_t, const iox::optional<T1> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1> iox::make_optional<T1, T2...>(T2 &&...) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::destruct_value() LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::operator *()  LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::operator *() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::operator ->() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::operator ->() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::operator =(const iox::optional<T1>&) LC=100% 9/9    DC=88% 7/8     SCC=86% 12/14  MCDC=71% 5/7   
+  iox::optional<T1>::operator =(iox::optional<T1>&&) LC=100% 11/11  DC=90% 9/10    SCC=88% 14/16  MCDC=75% 6/8   
+  iox::optional<T1>::optional()    LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::optional(T1 &&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::optional(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::optional(const iox::optional<T1>&) LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::optional<T1>::optional(iox::nullopt_t) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::optional(iox::optional<T1>&&) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::optional<T1>::optional<T1...>(iox::in_place_t, T1 &&...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::reset()       LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::optional<T1>::value() &     LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::value() &&    LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::value() const & LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::optional<T1>::~optional()   LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  std::enable_if<(!std::is_same<T1, iox::optional<T1>&>::value), iox::optional<T1>>::type & iox::optional<T1>::operator =<T1>(T1 &&) LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  void iox::optional<T1>::construct_value<T1...>(T1 &&...) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/detail/semantic_string.inl LC=100% 35/35  DC=100% 12/12  SCC=70% 14/20  MCDC=40% 4/10  
+
+  iox::SemanticString<T1, unsigned long, T3, T4>::SemanticString<unsigned long>(const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::SemanticString<T1, unsigned long, T3, T4>::operator !=(const iox::SemanticString<T1, unsigned long, T3, T4>&) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::SemanticString<T1, unsigned long, T3, T4>::operator <(const iox::SemanticString<T1, unsigned long, T3, T4>&) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::SemanticString<T1, unsigned long, T3, T4>::operator <=(const iox::SemanticString<T1, unsigned long, T3, T4>&) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::SemanticString<T1, unsigned long, T3, T4>::operator ==(const iox::SemanticString<T1, unsigned long, T3, T4>&) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::SemanticString<T1, unsigned long, T3, T4>::operator >(const iox::SemanticString<T1, unsigned long, T3, T4>&) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::SemanticString<T1, unsigned long, T3, T4>::operator >=(const iox::SemanticString<T1, unsigned long, T3, T4>&) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, iox::SemanticStringError> iox::SemanticString<T1, unsigned long, T3, T4>::create<unsigned long>(const char (&)[T1]) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, iox::SemanticStringError> iox::SemanticString<T1, unsigned long, T3, T4>::create<unsigned long>(const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<T1, iox::SemanticStringError> iox::SemanticString<T1, unsigned long, T3, T4>::create_impl<unsigned long>(const char *) LC=100% 11/11  DC=100% 6/6    SCC=70% 7/10   MCDC=40% 2/5   
+  iox::expected<void, iox::SemanticStringError> iox::SemanticString<T1, unsigned long, T3, T4>::append<T1>(const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::expected<void, iox::SemanticStringError> iox::SemanticString<T1, unsigned long, T3, T4>::insert<T1>(unsigned long, const T1 &, unsigned long) LC=100% 12/12  DC=100% 6/6    SCC=70% 7/10   MCDC=40% 2/5   
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||iox::is_custom_string<T1>::value), bool>::type iox::SemanticString<T1, unsigned long, T3, T4>::operator !=<T1>(const T1 &) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||iox::is_custom_string<T1>::value), bool>::type iox::SemanticString<T1, unsigned long, T3, T4>::operator ==<T1>(const T1 &) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/detail/string.inl LC=99% 182/183 DC=98% 57/58   SCC=89% 55/62  MCDC=77% 24/31 
+
+  iox::log::LogStream & iox::operator <<<unsigned long>(iox::log::LogStream &, const iox::string<unsigned long> &) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<T1>::string(iox::TruncateToCapacity_t, const char *)::[lambda() (instance 1)] LC=100% 1/1    DC=N/A         SCC=100% 2/2   MCDC=100% 1/1  
+  iox::string<unsigned long>& iox::string<unsigned long>::assign<unsigned long>(const char (&)[T1]) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>& iox::string<unsigned long>::assign<unsigned long>(const iox::string<unsigned long> &) LC=100% 3/3    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>& iox::string<unsigned long>::copy<unsigned long>(const iox::string<unsigned long> &) LC=100% 6/6    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>& iox::string<unsigned long>::move<unsigned long>(iox::string<unsigned long> &&) LC=100% 7/7    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>& iox::string<unsigned long>::operator =<unsigned long>(const char (&)[T1]) LC=89% 8/9     DC=75% 3/4     SCC=67% 4/6    MCDC=33% 1/3   
+  iox::string<unsigned long>& iox::string<unsigned long>::operator =<unsigned long>(const iox::string<unsigned long> &) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>& iox::string<unsigned long>::operator =<unsigned long>(iox::string<unsigned long> &&) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::append(iox::TruncateToCapacity_t, char) LC=100% 7/7    DC=100% 2/2    SCC=75% 3/4    MCDC=50% 1/2   
+  iox::string<unsigned long>::c_str() const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::compare(char) const LC=100% 6/6    DC=100% 4/4    SCC=100% 6/6   MCDC=100% 3/3  
+  iox::string<unsigned long>::operator =(const iox::string<unsigned long>&) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::string<unsigned long>::operator =(iox::string<unsigned long>&&) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::string<unsigned long>::string(const iox::string<unsigned long>&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::string(iox::TruncateToCapacity_t, const char *) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::string(iox::TruncateToCapacity_t, const char *, unsigned long) LC=100% 10/10  DC=100% 4/4    SCC=83% 5/6    MCDC=67% 2/3   
+  iox::string<unsigned long>::string(iox::string<unsigned long>&&) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::string<unsigned long>(const char (&)[T1]) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::string<unsigned long>(const iox::string<unsigned long> &) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::string<unsigned long>(iox::string<unsigned long> &&) LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::substr(unsigned long) const LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::string<unsigned long>::substr(unsigned long, unsigned long) const LC=100% 8/8    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::string<unsigned long>::unsafe_assign(const char *) LC=100% 10/10  DC=100% 4/4    SCC=83% 5/6    MCDC=67% 2/3   
+  std::enable_if<(((iox::is_char_array<T1>::value||iox::is_iox_string<T1>::value)||std::is_same<T1, char>::value)&&((iox::is_char_array<T2>::value||iox::is_iox_string<T2>::value)||std::is_same<T2, char>::value)), iox::string<iox::internal::SumCapa<T1, T2, T3...>::value>>::type iox::concatenate<T1, T2, T3...>(const T1 &, const T2 &, const T3 &...) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<(((iox::is_char_array<T1>::value||iox::is_iox_string<T1>::value)||std::is_same<T1, char>::value)&&((iox::is_char_array<T2>::value||iox::is_iox_string<T2>::value)||std::is_same<T2, char>::value)), iox::string<iox::internal::SumCapa<T1, T2>::value>>::type iox::concatenate<T1, T2>(const T1 &, const T2 &) LC=100% 9/9    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<(((iox::is_char_array<T1>::value||std::is_same<T1, char>::value)&&iox::is_iox_string<T2>::value)||(iox::is_iox_string<T1>::value&&((iox::is_char_array<T2>::value||std::is_same<T2, char>::value)||(iox::is_iox_string<T1>::value&&iox::is_iox_string<T2>::value)))), iox::string<iox::internal::SumCapa<T1, T2>::value>>::type iox::operator +<T1, T2>(const T1 &, const T2 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_char_array<T1>::value||std::is_same<T1, char>::value)||iox::is_custom_string<T1>::value), bool>::type iox::operator !=<T1, unsigned long>(const T1 &, const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_char_array<T1>::value||std::is_same<T1, char>::value)||iox::is_custom_string<T1>::value), bool>::type iox::operator <<T1, unsigned long>(const T1 &, const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_char_array<T1>::value||std::is_same<T1, char>::value)||iox::is_custom_string<T1>::value), bool>::type iox::operator <=<T1, unsigned long>(const T1 &, const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_char_array<T1>::value||std::is_same<T1, char>::value)||iox::is_custom_string<T1>::value), bool>::type iox::operator ==<T1, unsigned long>(const T1 &, const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_char_array<T1>::value||std::is_same<T1, char>::value)||iox::is_custom_string<T1>::value), bool>::type iox::operator ><T1, unsigned long>(const T1 &, const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_char_array<T1>::value||std::is_same<T1, char>::value)||iox::is_custom_string<T1>::value), bool>::type iox::operator >=<T1, unsigned long>(const T1 &, const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||(std::is_same<T1, char>::value||iox::is_custom_string<T1>::value)), bool>::type iox::operator !=<T1, unsigned long>(const iox::string<unsigned long> &, const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||(std::is_same<T1, char>::value||iox::is_custom_string<T1>::value)), bool>::type iox::operator <<T1, unsigned long>(const iox::string<unsigned long> &, const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||(std::is_same<T1, char>::value||iox::is_custom_string<T1>::value)), bool>::type iox::operator <=<T1, unsigned long>(const iox::string<unsigned long> &, const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||(std::is_same<T1, char>::value||iox::is_custom_string<T1>::value)), bool>::type iox::operator ==<T1, unsigned long>(const iox::string<unsigned long> &, const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||(std::is_same<T1, char>::value||iox::is_custom_string<T1>::value)), bool>::type iox::operator ><T1, unsigned long>(const iox::string<unsigned long> &, const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||(std::is_same<T1, char>::value||iox::is_custom_string<T1>::value)), bool>::type iox::operator >=<T1, unsigned long>(const iox::string<unsigned long> &, const T1 &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||(std::is_same<T1, char>::value||iox::is_custom_string<T1>::value)), bool>::type iox::string<unsigned long>::unsafe_append<T1>(const T1 &) LC=100% 10/10  DC=100% 2/2    SCC=50% 1/2    MCDC=0% 0/1    
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||(std::is_same<T1, char>::value||iox::is_custom_string<T1>::value)), iox::string<unsigned long>&>::type iox::string<unsigned long>::append<T1>(iox::TruncateToCapacity_t, const T1 &) LC=100% 9/9    DC=100% 2/2    SCC=50% 1/2    MCDC=0% 0/1    
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||iox::is_custom_string<T1>::value), iox::optional<unsigned long>>::type iox::string<unsigned long>::find<T1>(const T1 &, unsigned long) const LC=100% 6/6    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||iox::is_custom_string<T1>::value), iox::optional<unsigned long>>::type iox::string<unsigned long>::find_first_of<T1>(const T1 &, unsigned long) const LC=100% 9/9    DC=100% 6/6    SCC=100% 4/4   MCDC=100% 2/2  
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||iox::is_custom_string<T1>::value), iox::optional<unsigned long>>::type iox::string<unsigned long>::find_last_of<T1>(const T1 &, unsigned long) const LC=100% 15/15  DC=100% 10/10  SCC=100% 6/6   MCDC=100% 3/3  
+  std::enable_if<((iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value)||iox::is_custom_string<T1>::value), long>::type iox::string<unsigned long>::compare<T1>(const T1 &) const LC=100% 8/8    DC=100% 4/4    SCC=100% 4/4   MCDC=100% 2/2  
+  std::enable_if<(iox::is_iox_string<T1>::value||iox::is_char_array<T1>::value), bool>::type iox::string<unsigned long>::insert<T1>(unsigned long, const T1 &, unsigned long) LC=100% 12/12  DC=100% 6/6    SCC=100% 4/4   MCDC=100% 2/2  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/detail/string_internal.hpp LC=100% 6/6    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::internal::GetData<char [T1]>::call(const char (&)[T1]) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::GetData<char>::call(const char &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::GetData<iox::string<unsigned long>>::call(const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::GetSize<char [T1]>::call(const char (&)[T1]) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::GetSize<char>::call(char) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::GetSize<iox::string<unsigned long>>::call(const iox::string<unsigned long> &) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/detail/variant.inl LC=100% 36/36  DC=100% 12/12  SCC=92% 11/12  MCDC=83% 5/6   
+
+  T1 * iox::variant<T1...>::get<T1>() LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  T1 * iox::variant<T1...>::get_if<T1>(T1 *) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  bool iox::variant<T1...>::has_bad_variant_element_access<T1>() const LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  const T1 * iox::variant<T1...>::get<T1>() const LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  const T1 * iox::variant<T1...>::get_if<T1>(const T1 *) const LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  const iox::internal::get_type_at_index<(unsigned long)0, unsigned long, T1..., >::type * iox::variant<T1...>::get_at_index<unsigned long>() const LC=100% 2/2    DC=N/A         SCC=N/A        MCDC=N/A       
+  iox::internal::get_type_at_index<(unsigned long)0, unsigned long, T1..., >::type * iox::variant<T1...>::get_at_index<unsigned long>() LC=100% 4/4    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::variant<T1...>::call_element_destructor() LC=100% 2/2    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::variant<T1...>::error_message(const char *, const char *) LC=100% 1/1    DC=N/A         SCC=50% 1/2    MCDC=0% 0/1    
+  iox::variant<T1...>::~variant()  LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+  std::enable_if<(!std::is_same<T1, iox::variant<T1...>&>::value), iox::variant<T1...>>::type & iox::variant<T1...>::operator =<T1>(T1 &&) LC=100% 7/7    DC=100% 4/4    SCC=100% 2/2   MCDC=100% 1/1  
+  void iox::variant<T1...>::emplace<T1, T2...>(T2 &&...) LC=100% 4/4    DC=N/A         SCC=N/A        MCDC=N/A       
+  void iox::variant<T1...>::emplace_at_index<unsigned long, T2...>(T2 &&...) LC=100% 5/5    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/detail/variant_internal.hpp LC=70% 26/37   DC=63% 15/24   SCC=63% 15/24  MCDC=33% 4/12  
+
+  iox::internal::call_at_index<unsigned long, T2, >::copy(unsigned long, const void *, void *) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::internal::call_at_index<unsigned long, T2, >::copyConstructor(unsigned long, const void *, void *) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::internal::call_at_index<unsigned long, T2, >::destructor(unsigned long, void *) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::internal::call_at_index<unsigned long, T2, >::equality(unsigned long, const void *, const void *) LC=0% 0/4      DC=0% 0/2      SCC=0% 0/2     MCDC=0% 0/1    
+  iox::internal::call_at_index<unsigned long, T2, >::move(unsigned long, void *, void *) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::internal::call_at_index<unsigned long, T2, >::moveConstructor(unsigned long, void *, void *) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::internal::call_at_index<unsigned long, T2, T3...>::copy(unsigned long, const void *, void *) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::internal::call_at_index<unsigned long, T2, T3...>::copyConstructor(unsigned long, const void *, void *) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::internal::call_at_index<unsigned long, T2, T3...>::destructor(unsigned long, void *) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::internal::call_at_index<unsigned long, T2, T3...>::equality(unsigned long, const void *, const void *) LC=67% 2/3     DC=50% 1/2     SCC=50% 1/2    MCDC=0% 0/1    
+  iox::internal::call_at_index<unsigned long, T2, T3...>::move(unsigned long, void *, void *) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+  iox::internal::call_at_index<unsigned long, T2, T3...>::moveConstructor(unsigned long, void *, void *) LC=100% 3/3    DC=100% 2/2    SCC=100% 2/2   MCDC=100% 1/1  
+
+> /home/demo-user/sandbox/demo-project/iceoryx_master/iceoryx_hoofs/vocabulary/include/iox/not_null.hpp LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+  iox::not_null<T1, T2>::not_null(T1) LC=100% 1/1    DC=N/A         SCC=N/A        MCDC=N/A       
+
+> TOTAL (115 files, 1002 functions) LC=77% 2729/3551 DC=66% 857/1294 SCC=55% 1087/1972 MCDC=39% 385/986 
